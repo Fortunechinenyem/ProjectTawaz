@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
     return (
       <article className="card">
-      <footer className="footer">
+      <footer className="footer w-100 mx-auto">
         <div>
         <h4>Delivery Locations</h4>
       </div>

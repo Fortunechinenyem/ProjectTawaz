@@ -3,7 +3,7 @@ import React from "react";
 const FeaturedList = () => {
     return(
         <article>
-            <div className="card w-100 mx-auto">
+            <div className="card w-75 ms-auto">
             <div className="card-body">
             <h5 className="card-title">Our Menu</h5>
     
