@@ -11,25 +11,25 @@ function Menu() {
       <div className="card col-md-3 col-sm-6">
          <img src={logo3} className="" alt="logo" />
         <div className="card-body">
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p className="card-text">menu 1</p>
         </div>
         </div>
         <div className="card col-md-3 col-sm-6">
          <img src={logo4} className="" alt="logo" />
         <div className="card-body">
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p className="card-text">Menu 2</p>
         </div>
         </div>
         <div className="card col-md-3 col-sm-6">
          <img src={logo5} className="" alt="logo" />
         <div className="card-body">
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p className="card-text">Menu 3</p>
         </div>
         </div>
         <div className="card col-md-3 col-sm-6">
          <img src={logo6} className="" alt="logo" />
         <div className="card-body">
-        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <p className="card-text">Menu 4</p>
         </div>
         </div>
     </div>
