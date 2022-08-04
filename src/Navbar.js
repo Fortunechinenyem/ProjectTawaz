@@ -17,7 +17,7 @@ navLinks.forEach(link => {
 
 const Navbar =() => {
     return(
-        <header>
+        <>
         <div className="logo">
         <img src={logo} className="" alt="logo" />
         </div>
@@ -34,7 +34,7 @@ const Navbar =() => {
         </nav>
 
     
-    </header>
+    </>
     )
 };
 

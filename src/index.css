@@ -104,12 +104,10 @@ h3 {
 
 /* header */
 
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
+.welcome{
+  text-align: center;
+  color: rgb(170, 38, 140);
 }
-
 .logo {
   max-width: 100px;
   background-color: var(--clr-light);
