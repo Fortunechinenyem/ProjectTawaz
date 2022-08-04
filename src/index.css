@@ -219,7 +219,15 @@ h3 {
   bottom: 6px;
 }
 
-
+.containerh {
+  margin: 10px;
+  padding: 10px;
+}
+.herotext1 {
+ transform: translateX(50px);
+  transform: translateY(80px);
+  color: rgb(134, 59, 116) ;
+}
 
 .card-body {
   background: var(--clr-light);
