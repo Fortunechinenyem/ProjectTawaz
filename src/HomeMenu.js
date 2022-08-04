@@ -8,7 +8,7 @@ const HomeMenu =() => {
       <div className="card-body">
         <h5 className="card-title">Breakfast Specials</h5>
         <p className="card-text">We have a variety of breakfast menu</p>
-        <a href="#" className="btn btn-warning">Order</a>
+        <a href="mailto:sarahtawanyida@gmail.com" className="btn btn-warning">Order</a>
       </div>
     </div>
   </div>
@@ -17,7 +17,7 @@ const HomeMenu =() => {
       <div className="card-body">
         <h5 className="card-title">Belleful Series</h5>
         <p className="card-text">Customised food for your satisfaction, ranging from rice to swallow</p>
-        <a href="#" className="btn btn-warning">Order</a>
+        <a href="mailto:sarahtawanyida@gmail.com" className="btn btn-warning">Order</a>
       </div>
     </div>
   </div>
@@ -26,7 +26,7 @@ const HomeMenu =() => {
       <div className="card-body">
         <h5 className="card-title">Pasteries</h5>
         <p className="card-text">Covers a range of mouth watering pastries and baked foods.</p>
-        <a href="#" className="btn btn-warning">Order</a>
+        <a href="mailto:sarahtawanyida@gmail.com" className="btn btn-warning">Order</a>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@ const HomeMenu =() => {
       <div className="card-body">
         <h5 className="card-title">Drinks and Smoothies</h5>
         <p className="card-text">Healthy drinks and smoothies customised to your taste!</p>
-        <a href="#" className="btn btn-warning">Order</a>
+        <a href="mailto:sarahtawanyida@gmail.com" className="btn btn-warning">Order</a>
       </div>
     </div>
   </div>
