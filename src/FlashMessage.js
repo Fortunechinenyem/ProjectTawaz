@@ -1,15 +1,31 @@
 import React from "react";
-import  logof from "./images/flyer.png"
+import logoh from "./images/cake1.jpg"
+import logoi from "./images/chops2.jpg"
+import logoj from "./images/dough.jpg"
+
 
 const Flash =() => {
     return(
-<div class="card mb-3" >
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src={logof} className="flashimg" alt="logof" />
+      <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={logoh} className="" alt="logoh" />
     </div>
-    
+    <div className="carousel-item">
+      <img src={logoi} className="" alt="logoi" />
+    </div>
+    <div className="carousel-item">
+      <img src={logoj} className="" alt="logoj" />
+    </div>
   </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
 </div>
     )
 };
