@@ -223,10 +223,14 @@ h3 {
   margin: 10px;
   padding: 10px;
 }
-.herotext1 {
+/* .herotext1 {
  transform: translateX(50px);
   transform: translateY(80px);
   color: rgb(134, 59, 116) ;
+} */
+.heroimg{
+  border-radius: 100px;
+  
 }
 
 .card-body {

@@ -8,8 +8,8 @@ function Hero() {
             <h2 className="mb-4">Enjoy Delicious Food at affordable prices!</h2>
             <a href="mailto:sarahtawanyida@gmail.com" className="btn btn-warning">View Menu</a>
         </div>
-      <div className="heroimg w-75">
-        <img src={logoh} className="" alt="logoh" />
+      <div className=" w-75">
+        <img src={logoh} className="heroimg" alt="logoh" />
     </div>
     </div>
     
