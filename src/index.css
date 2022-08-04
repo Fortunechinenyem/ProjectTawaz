@@ -238,10 +238,7 @@ h3 {
 text-align: center;
 color: rgb(170, 38, 140)!;
 }
-.card-header1 {
-  text-align: center;
-  color: rgb(170, 38, 140) !;
-}
+
 
 .card-text {
   color: var(--clr-dark);

@@ -2,7 +2,7 @@ import React from "react";
 
 const HomeMenu =() => {
     return (
-        <div className="row">
+        <div className="row mb-3">
   <div className="col-sm-6 col-md-3">
     <div className="card">
       <div className="card-body">
