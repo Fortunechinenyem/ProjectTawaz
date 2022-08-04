@@ -1,17 +1,19 @@
 import React from "react";
 import FeaturedList from "../FeaturedList";
+import Flash from "../FlashMessage";
 import Footer from "../Footer";
 import Hero from "../Hero";
-import Menu from "../Menu";
-import Navbar from "../Navbar";
+import HomeMenu from "../HomeMenu";
+//  import Navbar from "../Navbar";
 
 const Home = () => {
     return(
         <article>
-            <Navbar />
+            {/* <Navbar />  */}
             <Hero />
-            <Menu />
             <FeaturedList />
+            <HomeMenu />
+            <Flash />
             <Footer />
         </article>
     )

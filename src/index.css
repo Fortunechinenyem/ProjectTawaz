@@ -246,27 +246,11 @@ header {
   color: var(--clr-dark);
 }
 
-/* About */
-.story {
-  text-align: center;
+.feature {
+  align-items: center;
 }
-
-/* DashBoard */
-
-.dashheader {
-  text-align: center;
-}
-
-.dashwrap {
-  gap: 30px;
-}
-
-.form-control {
-  background: var(--clr-light);
-}
-
-.form-select {
-  background: var(--clr-light);
+.flashimg{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 }
 
 /* Footer */

@@ -25,11 +25,11 @@ const Navbar =() => {
             <span className="hamburger"></span>
         </button>
         <nav className="nav">
-            <ul className="nav__list">
-                <li className="nav__item"><a href="./about.html" className="nav__link">About US</a></li>
-                <li className="nav__item"><a href="./contact.html" className="nav__link">Contact US</a></li>
+             <ul className="nav__list">
+                <li className="nav__item"><a href="mailto:sarahtawanyida@gmail.com" className="nav__link">Home</a></li>
+                <li className="nav__item"><a href="mailto:sarahtawanyida@gmail.com" className="nav__link">Menu</a></li>
 
-            </ul>
+            </ul> 
             
         </nav>
 
