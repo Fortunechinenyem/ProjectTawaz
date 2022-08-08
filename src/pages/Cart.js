@@ -1,12 +1,14 @@
 import Welcome from "../Header";
 import Footer from "../Footer";
+import CartHeader from "../CartHeader";
+import CardBody from "../CartBody";
 // import Navbar from "../Navbar";
 
 const Cart = () => {
   return (
     <article>
-      {/* <Navbar /> */}
-      <Welcome />
+      <CartHeader />
+      <CardBody />
       <Footer />
     </article>
   );
