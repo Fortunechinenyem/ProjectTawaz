@@ -1,5 +1,4 @@
 import React from "react";
-import Flash from "../FlashMessage";
 import Footer from "../Footer";
 import Welcome from "../Header";
 import MainMenu from "../MainMenu";
