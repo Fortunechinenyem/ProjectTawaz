@@ -10,7 +10,7 @@ const HomeMenu1 = (props) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{text}</p>
-        <Link to="/menu" className="btn btn-warning">
+        <Link to="/cart" className="btn btn-warning">
           Order
         </Link>
       </div>
