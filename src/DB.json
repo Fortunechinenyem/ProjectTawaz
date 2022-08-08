@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "Belleful Series",
+      "text": "We have a variety of breakfast menu",
+      "image": "../images/dough.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Breakfast Specials",
+      "text": "We have a variety of breakfast menu",
+      "image": "../images/chops1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Pasteries",
+      "text": "We have a variety of breakfast menu",
+      "image": "../images/cake1.jpg"
+    }
+  ]
+}

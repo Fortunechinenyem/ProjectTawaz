@@ -1,17 +1,18 @@
-import Home from './pages/Home';
-import Navbar from './Navbar';
-import './App.css';
+import Home from "./pages/Home";
+import Navbar from "./Navbar";
+import HomeMenu from "./HomeMenu";
+import "./App.css";
 import { Route, Routes } from "react-router-dom";
+import Menu from "./pages/Menu";
 
 function App() {
   return (
     <>
-    {/* <Navbar/> */}
-    <Routes>
-      <Route path="/" element={<Home />} />
-      {/* <Route path="expenses" element={<Expenses />} />
-      <Route path="invoices" element={<Invoices />} /> */}
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/menu" element={<Menu />} />
+      </Routes>
+      {/* <Navbar /> */}
     </>
   );
 }
