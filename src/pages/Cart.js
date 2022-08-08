@@ -1,4 +1,3 @@
-import Welcome from "../Header";
 import Footer from "../Footer";
 import CartHeader from "../CartHeader";
 import CardBody from "../CartBody";
