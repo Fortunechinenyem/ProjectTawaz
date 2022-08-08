@@ -211,7 +211,9 @@ h3 {
 .hamburger::after {
   bottom: 6px;
 }
-
+.header {
+  justify-content: space-between;
+}
 /* .containerh {
   margin: 10px;
   padding: 10px;
