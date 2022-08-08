@@ -30,5 +30,14 @@
       "text": "We have a variety of healthy drinks and smoothies",
       "image": "../images/smoothie1.jpg"
     }
+  ],
+
+  "mainmenu": [
+    {
+      "id": 9,
+      "title": "Swallow",
+      "Amount": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    }
   ]
 }
