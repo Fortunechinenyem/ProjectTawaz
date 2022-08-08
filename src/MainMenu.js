@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import Db from "./DB.json";
 
 const HomeMenu2 = (props) => {
-  const { id, title, amount, image } = props;
+  const { id, title, text, image } = props;
   return (
     <div key={id} className="card">
       <img src={image} alt="swallow.jpg" />
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
-        <p className="card-text">{amount}</p>
+        <p className="card-text">{text}</p>
         <Link to="/cart" className="btn btn-warning">
           Add to Cart
         </Link>

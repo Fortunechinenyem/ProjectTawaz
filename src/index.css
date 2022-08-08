@@ -214,6 +214,9 @@ h3 {
 .header {
   justify-content: space-between;
 }
+.menuheader {
+  border-radius: 10px;
+}
 /* .containerh {
   margin: 10px;
   padding: 10px;

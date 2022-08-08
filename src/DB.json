@@ -36,7 +36,85 @@
     {
       "id": 9,
       "title": "Swallow",
-      "Amount": "N500 per plate",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Swallow",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Bread and Tea with eggs",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Choice Pap and Akara",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Jollof Rice and Chicken",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Spaghetti and stir fry Vegetables",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Noodles Special",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Yam Porridge",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Plantain with egg sauce and Sausages",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Beans Porridge with plantain",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Boiled Yam with fish sauce/Stew/Vegetable",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Masa Special with Soup/Meat, snail or gizzard",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Northern Pottage(Pate)",
+      "text": "N500 per plate",
+      "image": "../images/swallow.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Samosa,Springrolls and puff-puff",
+      "text": "N500 per plate",
       "image": "../images/swallow.jpg"
     }
   ]
