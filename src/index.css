@@ -190,7 +190,7 @@ h3 {
 
 
 .hamburger {
-  display: block;
+  display: none;
   position: relative;
 }
 

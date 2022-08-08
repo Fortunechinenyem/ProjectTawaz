@@ -2,6 +2,8 @@ import React from "react";
 
 const HomeMenu =() => {
     return (
+        <div className="container-fluid">
+
         <div className="row mb-3">
   <div className="col-sm-6 col-md-3">
     <div className="card">
@@ -15,7 +17,7 @@ const HomeMenu =() => {
   <div className="col-sm-6 col-md-3">
     <div className="card">
       <div className="card-body">
-        <h5 className="card-title">Belleful Series</h5>
+          <h5 className="card-title">Belleful Series</h5>
         <p className="card-text">Customised food for your satisfaction, ranging from rice to swallow</p>
         <a href="mailto:sarahtawanyida@gmail.com" className="btn btn-warning">Order</a>
       </div>
@@ -42,6 +44,7 @@ const HomeMenu =() => {
 </div>
 
 
+        </div>
     )
 };
 
