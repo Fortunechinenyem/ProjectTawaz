@@ -6,7 +6,7 @@ function Hero() {
     <div style={{ backgroundImage: `url(${background})`, height: '80vh', backgroundPosition: 'center', 
  }}>
       <div className="herotext">
-        <h2 className="mb-4">Enjoy Delicious Food at affordable prices!</h2>
+        <h2 className="mb-4">Good Food, Tasty Food!</h2>
         <a href="mailto:sarahtawanyida@gmail.com" className="btn btn-warning">View Menu</a>
       </div>
        
