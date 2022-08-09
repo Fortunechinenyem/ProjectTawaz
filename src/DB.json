@@ -117,5 +117,28 @@
       "text": "N500 per plate",
       "image": "../images/swallow.jpg"
     }
+  ],
+
+  "cart": [
+    {
+      "id": 60,
+      "title": "Breakfast Meal",
+      "text": "N500 per plate",
+      "image": "../images/breakfast.jpg"
+    },
+    {
+      "id": 61,
+      "title": "MeatMeal",
+      "text": "N500 per plate",
+      "image": "../images/meatmeal.jpg"
+    }
+  ],
+  "checkout": [
+    {
+      "id": 70,
+      "title": "Main Total :",
+      "text": "Delivery Charge :",
+      "text1": "Total :"
+    }
   ]
 }
