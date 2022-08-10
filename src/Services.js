@@ -35,7 +35,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <Link to="/services" className="btn btn-warning">
+        <Link to="/about" className="btn btn-warning">
           View More
         </Link>
       </div>
