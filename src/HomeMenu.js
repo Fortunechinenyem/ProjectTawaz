@@ -21,7 +21,7 @@ const HomeMenu1 = (props) => {
 const HomeMenu = () => {
   return (
     <>
-      <div className="container row g-3">
+      <div className="container row g-3 w-75 mx-auto">
         {Db.menu.map((menuItem) => {
           return (
             <div className="col-sm-6 col-md-3">

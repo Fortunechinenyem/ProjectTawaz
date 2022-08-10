@@ -5,6 +5,7 @@ import Footer from "../Footer";
 import Welcome from "../Header";
 import Hero from "../Hero";
 import HomeMenu from "../HomeMenu";
+import Services from "../Services";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Hero />
       <FeaturedList />
       <HomeMenu />
+      <Services />
       <Flash />
       <Footer />
     </article>

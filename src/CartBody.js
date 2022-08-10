@@ -6,7 +6,7 @@ const CardBody = (props) => {
   const { id, title, text, image } = props;
   return (
     <div key={id} className="card mb-3 w-75 mx-auto">
-      <div className="row g-0">
+      <div className="container row g-0">
         <div className="col-md-4 col-sm-6 ">
           <img
             src={image}

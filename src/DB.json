@@ -22,13 +22,13 @@
       "id": 4,
       "title": "Pasteries",
       "text": "We have a variety of breakfast menu",
-      "image": "../images/burger.jpg"
+      "image": "../images/pastry.jpg"
     },
     {
       "id": 5,
       "title": "Drinks and Smoothies",
       "text": "We have a variety of healthy drinks and smoothies",
-      "image": "../images/smoothie1.jpg"
+      "image": "../images/drink.jpg"
     }
   ],
 

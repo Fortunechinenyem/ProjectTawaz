@@ -1,5 +1,5 @@
 import React from "react";
-import background from "./images/rice1.jpg";
+import background from "./images/meat.jpg";
 import { Link } from "react-router-dom";
 
 function Hero() {
