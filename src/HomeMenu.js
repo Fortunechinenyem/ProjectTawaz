@@ -11,7 +11,7 @@ const HomeMenu1 = (props) => {
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{text}</p>
         <Link to="/cart" className="btn btn-warning">
-          Order
+          View Menu
         </Link>
       </div>
     </div>

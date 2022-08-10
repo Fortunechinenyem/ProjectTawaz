@@ -6,6 +6,8 @@ import Menu from "./pages/Menu";
 import Cart from "./pages/Cart";
 import NavBar from "./Navbar";
 import Contact from "./pages/Contact";
+import Training from "./pages/Training";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/training" element={<Training />} />
       </Routes>
     </>
   );

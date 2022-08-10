@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -34,6 +35,9 @@ const Services = () => {
             </p>
           </div>
         </div>
+        <Link to="/services" className="btn btn-warning">
+          View More
+        </Link>
       </div>
     </section>
   );
