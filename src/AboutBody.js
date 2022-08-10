@@ -52,7 +52,7 @@ const AboutBody = () => {
             Register
           </Link>
         </div>
-        <div className="card w-50">
+        <div className="card w-50 mx-auto">
           <h3 className="w-50 mb-3 mt-3 bg-warning text-center mx-auto">
             Head Chef
           </h3>
