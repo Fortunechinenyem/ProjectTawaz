@@ -25,7 +25,7 @@ const ContactBody = () => {
         ></textarea>
         <label for="floatingTextarea">Comments</label>
       </div>
-      <Link to="/cart" className="w-25 mx-auto btn btn-warning mt-3">
+      <Link to="/cart" className="btn btn-warning mt-3">
         Submit
       </Link>
     </div>

@@ -6,8 +6,8 @@ const Services = () => {
       <h2 className="w-25  mb-3 mt-3 bg-warning text-center mx-auto">
         Services
       </h2>
-      <div className="container d-flex w-75 mx-auto g-3">
-        <div className="card text-dark bg-light mb-3 col-sm-12 col-md-4">
+      <div className="container w-75 mx-auto g-3">
+        <div className="card text-dark bg-light mb-3 col-sm-12">
           <div className="card-body">
             <h5 className="card-title">Indoor Catering</h5>
             <p className="card-text">
@@ -16,7 +16,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card text-dark bg-light mb-3 col-sm-12 col-md-4">
+        <div className="card text-dark bg-light mb-3 col-sm-12 ">
           <div className="card-body">
             <h5 className="card-title">Outdoor Catering Services</h5>
             <p className="card-text">
@@ -25,7 +25,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="card text-dark bg-light mb-3 col-sm-12 col-md-4">
+        <div className="card text-dark bg-light mb-3 col-sm-12">
           <div className="card-body">
             <h5 className="card-title">Training School</h5>
             <p className="card-text">
