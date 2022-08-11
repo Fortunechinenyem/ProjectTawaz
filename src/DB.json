@@ -11,45 +11,33 @@
       "title": "Breakfast Specials",
       "text": "We have a variety of breakfast menu",
       "image": "../images/breakfast.jpg"
-    },
-    {
-      "id": 3,
-      "title": "Selense",
-      "text": "We have a variety of light weight menu",
-      "image": "../images/rice1.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Pasteries",
-      "text": "We have a variety of breakfast menu",
-      "image": "../images/pastry.jpg"
-    },
-    {
-      "id": 5,
-      "title": "Drinks and Smoothies",
-      "text": "We have a variety of healthy drinks and smoothies",
-      "image": "../images/drink.jpg"
     }
   ],
 
   "mainmenu": [
     {
-      "id": 9,
+      "id": 7,
       "title": "Swallow",
       "text": "N500 per plate",
       "image": "../images/swallow.jpg"
     },
     {
-      "id": 9,
+      "id": 8,
       "title": "White Rice and Stew",
       "text": "N500 per plate",
-      "image": "../images/swallow.jpg"
+      "image": "../images/rice1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Smoothies and drinks",
+      "text": "N500 per Cup",
+      "image": "../images/drink.jpg"
     },
     {
       "id": 10,
-      "title": "Bread and Tea with eggs",
-      "text": "N500 per plate",
-      "image": "../images/swallow.jpg"
+      "title": "Pasteries",
+      "text": "We have a variety of breakfast menu",
+      "image": "../images/pastry.jpg"
     },
     {
       "id": 11,
