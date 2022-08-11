@@ -106,7 +106,8 @@ h3 {
 }
 .logo {
   max-width: 100px;
-  background-color: var(--clr-light);
+  background-color: var(--clr-dark);
+  color: rgb(170, 38, 140);
 }
 
 .nav {
