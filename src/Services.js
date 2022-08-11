@@ -4,9 +4,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <section>
-      <h2 className="w-25  mb-3 mt-3 bg-warning text-center mx-auto">
-        Services
-      </h2>
+      <h2 className="w-25  mb-3 mt-3 text-center mx-auto">Services</h2>
       <div className="container w-75 mx-auto g-3">
         <div className="card text-dark bg-light mb-3 col-sm-12">
           <div className="card-body">

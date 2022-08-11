@@ -1,7 +1,7 @@
 import React from "react";
 import logoh from "./images/meat.jpg";
-import logoi from "./images/riceshrimp.jpg";
-import logoj from "./images/doughnut.jpg";
+import logoi from "./images/heroimage.jpg";
+import logoj from "./images/chops1.jpg";
 
 const Flash = () => {
   return (
