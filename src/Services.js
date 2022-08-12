@@ -33,9 +33,11 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <Link to="/about" className="btn btn-warning">
-          View More
-        </Link>
+        <div className="w-75 text-center mx-auto">
+          <Link to="/about" className="btn btn-warning">
+            View More
+          </Link>
+        </div>
       </div>
     </section>
   );

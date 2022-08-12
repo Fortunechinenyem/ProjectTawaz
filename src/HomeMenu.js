@@ -10,7 +10,7 @@ const HomeMenu1 = (props) => {
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{text}</p>
-        <Link to="/cart" className="btn btn-warning">
+        <Link to="/menu" className="btn btn-warning">
           View Menu
         </Link>
       </div>
@@ -24,7 +24,7 @@ const HomeMenu = () => {
       <div className="container row g-3 w-75 mx-auto">
         {Db.menu.map((menuItem) => {
           return (
-            <div className="col-sm-6 col-md-3">
+            <div className="col-sm-6 col-md-6">
               <HomeMenu1 {...menuItem}></HomeMenu1>
             </div>
           );
