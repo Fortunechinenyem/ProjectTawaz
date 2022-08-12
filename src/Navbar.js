@@ -3,18 +3,18 @@ import logo from "./images/logo.png";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  // const navToggle = document.querySelector(".nav-toggle");
-  // const navLinks = document.querySelectorAll(".nav__link");
+  const navToggle = document.querySelector(".nav-toggle");
+  const navLinks = document.querySelectorAll(".nav__link");
 
-  // navToggle.addEventListener("click", () => {
-  //   document.body.classList.toggle("nav-open");
-  // });
+  navToggle.addEventListener("click", () => {
+    document.body.classList.toggle("nav-open");
+  });
 
-  // navLinks.forEach((link) => {
-  //   link.addEventListener("click", () => {
-  //     document.body.classList.remove("nav-open");
-  //   });
-  // });
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      document.body.classList.remove("nav-open");
+    });
+  });
 
   return (
     <header className="d-flex">
