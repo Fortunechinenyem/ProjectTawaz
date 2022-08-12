@@ -3,6 +3,7 @@ import CartHeader from "../CartHeader";
 import CardBody from "../CartBody";
 import Coupon from "../Coupon";
 import Checkout from "../Checkout";
+import OrderHistory from "../OrderHistory";
 
 const Cart = () => {
   return (
@@ -11,6 +12,7 @@ const Cart = () => {
       <CardBody />
       <Coupon />
       <Checkout />
+      <OrderHistory />
       <Footer />
     </article>
   );
