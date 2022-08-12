@@ -7,7 +7,7 @@ const Checkout1 = (props) => {
   return (
     <div key={id} className="card">
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
+        <p className="card-title">{title}</p>
         <p className="card-text">{text}</p>
         <p className="card-text">{text1}</p>
         <Link to="/cart" className="btn btn-warning">
