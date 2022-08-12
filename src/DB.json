@@ -27,18 +27,7 @@
       "text": "N500 per plate",
       "image": "../images/rice1.jpg"
     },
-    {
-      "id": 9,
-      "title": "Smoothies and drinks",
-      "text": "N500 per Cup",
-      "image": "../images/drink.jpg"
-    },
-    {
-      "id": 10,
-      "title": "Pasteries",
-      "text": "We have a variety of breakfast menu",
-      "image": "../images/pastry.jpg"
-    },
+
     {
       "id": 11,
       "title": "Choice Pap and Akara",
@@ -121,6 +110,7 @@
       "image": "../images/meatmeal.jpg"
     }
   ],
+
   "checkout": [
     {
       "id": 70,
