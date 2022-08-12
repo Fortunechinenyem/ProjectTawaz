@@ -10,6 +10,10 @@ const TrainingBody = () => {
       </div>
       <div className="mt-3 mb-3">
         <img src={TH} alt={TrainingBody.jpg} />
+        <p>
+          We hold your hands on your cullinary journey, giving top notch
+          guidance that helps you stand out!
+        </p>
       </div>
       <div className="w-75 mx-auto mt-5 mb-5">
         <div className="form-floating mb-3">
@@ -43,9 +47,11 @@ const TrainingBody = () => {
             Why do you want to attend TCC Academy?
           </label>
         </div>
-        <Link to="/contact" className="btn btn-warning mt-3">
-          Submit
-        </Link>
+        <div className="w-75 text-center mx-auto">
+          <Link to="/contact" className="btn btn-warning mt-3">
+            Submit
+          </Link>
+        </div>
       </div>
     </section>
   );
