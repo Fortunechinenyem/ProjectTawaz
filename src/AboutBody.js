@@ -7,16 +7,6 @@ const AboutBody = () => {
     <section>
       <div>
         <div className="card w-100 mx-auto mt-3 mb-3">
-          <div className="card-body">
-            <p className="card-text">
-              A part of this brand named TawazNorthernDelight is set to add
-              spice to the northern food lovers in the western part of the
-              country with our special northern delight
-              foods,drinks,snacks,grills, finger foods and the likes. We're
-              ready to pamper the taste buds of our target market with all the
-              goodness that good and healthy foods bring.
-            </p>
-          </div>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
               We train students at the TCC cake academy
@@ -47,18 +37,19 @@ const AboutBody = () => {
               beautifully. Classes are also available for beginners who desire
               to learn catering and its economics.
             </p>
+            <Link to="/training" className="btn btn-warning">
+              Register
+            </Link>
           </div>
-          <Link to="/training" className="btn btn-warning">
-            Register
-          </Link>
         </div>
-        <div className="card w-50 mx-auto">
-          <h3 className="w-50 mb-3 mt-3 bg-warning text-center mx-auto">
-            Head Chef
-          </h3>
+
+        <div className="card w-50 mx-auto mt-3 mb-3">
           <img src={ABI} className="card-img-top" alt={AboutBody.jpg} />
           <div className="card-body">
             <p className="card-text">Sarah Tawanyinda Ishaku</p>
+            <h3 className="w-50 mb-3 mt-3 bg-warning text-center mx-auto">
+              Head Chef
+            </h3>
           </div>
         </div>
       </div>
