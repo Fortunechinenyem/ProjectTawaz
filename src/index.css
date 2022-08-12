@@ -123,11 +123,6 @@ h3 {
   transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
 }
 
-.nav2 {
-  list-style: none;
-  font-size: var(--fs-h5);
-}
-
 .nav__list {
   list-style: none;
   display: flex;

@@ -8,48 +8,46 @@ const NavBar = () => {
       <div className="logo">
         <img src={logo} alt={logo.png} />
       </div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar bg-light">
         <div className="container-fluid">
           <button
-            className="navbar-toggler"
-            type="button"
+            className="nav-toggle"
             data-bs-toggle="collapse"
             data-bs-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label="toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="hamburger"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link to="/" className="nav-link active" aria-current="page">
+          <div className=" navbar-collapse" id="navbarTogglerDemo03">
+            <ul className="nav__list me-auto mb-2 mb-lg-0">
+              <li className="nav__item">
+                <Link to="/" className="nav__link active" aria-current="page">
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/about" className="nav-link">
+              <li className="nav__item">
+                <Link to="/about" className="nav__link">
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/menu" className="nav-link">
+              <li className="nav__item">
+                <Link to="/menu" className="nav__link">
                   Menu
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/cart" className="nav-link">
+              <li className="nav__item">
+                <Link to="/cart" className="nav__link">
                   Cart
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/training" className="nav-link">
+              <li className="nav__item">
+                <Link to="/training" className="nav__link">
                   Training
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/contact" className="nav-link">
+              <li className="nav__item">
+                <Link to="/contact" className="nav__link">
                   Contact
                 </Link>
               </li>
