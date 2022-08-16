@@ -1,6 +1,5 @@
 import React from "react";
 import Heroimage from "./images/herohome.png";
-import { Link } from "react-router-dom";
 
 function Hero() {
   return (
