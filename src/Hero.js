@@ -1,18 +1,14 @@
 import React from "react";
-import Heroimage from "./images/figma.png";
+import Heroimage from "./images/herohome.png";
 import { Link } from "react-router-dom";
 
 function Hero() {
   return (
     <div className="">
-      <div className="homehero mb-5 mx-auto">
+      <div className="homehero mb-5 mt-5 mx-auto w-75">
         <div className="heroimage">
           <img src={Heroimage} alt={Hero.png} />
         </div>
-
-        <Link to="/menu" className="btn btn-warning  mt-3mb-3">
-          VIEW MENU
-        </Link>
       </div>
     </div>
   );
