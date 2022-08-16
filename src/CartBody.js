@@ -18,12 +18,14 @@ const CardBody = (props) => {
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{text} </p>
-            <Link to="/cart" className="btn btn-warning">
-              -
-            </Link>
-            <Link to="/cart" className="btn btn-warning">
-              +
-            </Link>
+            <div className="cartbtn">
+              <Link to="/cart" className="btn btn-warning">
+                -
+              </Link>
+              <Link to="/cart" className="btn btn-warning">
+                +
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -33,7 +33,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className="w-75 text-center mx-auto">
+        <div className="w-75 text-center mx-auto mb-4">
           <Link to="/about" className="btn btn-warning">
             View More
           </Link>
