@@ -1,21 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TH from "./images/th.jpg";
+import TH from "./images/train.png";
 
 const TrainingBody = () => {
   return (
     <section>
-      <div>
-        <h1 className="w-50 mx-auto mt-3 mb-3">Tawaz Cake Academy</h1>
-      </div>
-      <div className="mt-3 mb-3">
+      <div className="mt-3 mb-3 w-75 mx-auto">
         <img src={TH} alt={TrainingBody.jpg} />
+      </div>
+      <div className="w-75 mx-auto mt-5 mb-5">
         <p>
           We hold your hands on your cullinary journey, giving top notch
           guidance that helps you stand out!
         </p>
-      </div>
-      <div className="w-75 mx-auto mt-5 mb-5">
         <div className="form-floating mb-3">
           <input type="name" className="form-control" id="floatingInput" />
           <label for="floatingInput">Full Name</label>
