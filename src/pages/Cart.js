@@ -1,14 +1,15 @@
 import Footer from "../Footer";
-import CartHeader from "../CartHeader";
+
 import CardBody from "../CartBody";
 import Coupon from "../Coupon";
 import Checkout from "../Checkout";
 import OrderHistory from "../OrderHistory";
+import CartHero from "../CartHero";
 
 const Cart = () => {
   return (
     <article>
-      <CartHeader />
+      <CartHero />
       <CardBody />
       <Coupon />
       <Checkout />
