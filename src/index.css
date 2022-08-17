@@ -273,6 +273,10 @@ header {
   width: 20vh;
 } */
 /* cart */
+.carticon {
+  width: 20px;
+  height: 10px;
+}
 .cartbtn {
   gap: 12px;
   display: flex;

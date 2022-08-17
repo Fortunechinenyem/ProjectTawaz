@@ -1,27 +1,20 @@
 import React from "react";
 import logo from "./images/logo.png";
+import CI from "./images/carticon.png";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  // const navToggle = document.querySelector(".nav-toggle");
-  // const navLinks = document.querySelectorAll(".nav__link");
-
-  // navToggle.addEventListener("click", () => {
-  //   document.body.classList.toggle("nav-open");
-  // });
-
-  // navLinks.forEach((link) => {
-  //   link.addEventListener("click", () => {
-  //     document.body.classList.remove("nav-open");
-  //   });
-  // });
-
   return (
     <header className="d-flex">
       <div className="logo">
         <img src={logo} alt={logo.png} />
       </div>
+
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="carticon">
+          <img src={CI} alt={NavBar.jpg} />
+        </div>
+
         <div className="container-fluid">
           <button
             className="navbar-toggler"
