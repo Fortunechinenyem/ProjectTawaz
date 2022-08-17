@@ -83,7 +83,9 @@ const NavBar = () => {
             </ul>
 
             <button className="btn btn-warning" type="submit">
-              Make an Order
+              <Link to="/menu" className="dropdown-item">
+                Make an Order
+              </Link>
             </button>
           </div>
         </div>
