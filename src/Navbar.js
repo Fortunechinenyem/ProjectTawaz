@@ -6,8 +6,10 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <header className="d-flex">
-      <div className="logo">
-        <img src={logo} alt={logo.png} />
+      <div className="logo bg-light">
+        <Link to="/">
+          <img src={logo} alt={logo.png} />
+        </Link>
       </div>
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
