@@ -231,11 +231,7 @@ header {
   color: rgb(134, 59, 116) ;
 } */
 .herotext {
-  margin: 10px;
-  padding: 10px;
-  color: var(--clr-light);
-  transform: translateX(50px);
-  transform: translateY(200px);
+  color: var(--clr-accent);
 }
 
 .card-body {
@@ -267,6 +263,16 @@ header {
 .flashimg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
+/* home */
+.homehero {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+.herotext1 {
+  color: rgb(223, 14, 219);
+}
+
 /* About */
 /* .abouthero {
   height: 20vh;
