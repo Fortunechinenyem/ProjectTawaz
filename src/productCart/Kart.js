@@ -26,7 +26,11 @@ const Kart = () => {
                 return (
                   <tr key={index}>
                     <td>
-                      <img src={item.img} style={{ height: "6rem" }} />
+                      <img
+                        src={item.img}
+                        alt={myimage}
+                        style={{ height: "6rem" }}
+                      />
                     </td>
                     <td>{item.title}</td>
                     <td>{item.price}</td>

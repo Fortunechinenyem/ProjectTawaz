@@ -8,7 +8,6 @@ import NavBar from "./Navbar";
 import Contact from "./pages/Contact";
 import Training from "./pages/Training";
 import About from "./pages/About";
-import { useState } from "react";
 
 function App() {
   return (
