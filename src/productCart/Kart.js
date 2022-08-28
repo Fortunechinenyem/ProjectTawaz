@@ -14,7 +14,7 @@ const Kart = () => {
   } = useCart();
   if (isEmpty) return <h1>Your Cart is empty</h1>;
   return (
-    <section className="container w-75">
+    <section className="container w-75 mx-auto">
       <div className="row justify-content-center">
         <div className="col-12">
           <h4>
@@ -29,7 +29,7 @@ const Kart = () => {
                       <img
                         src={item.img}
                         alt={"#"}
-                        style={{ height: "4rem" }}
+                        style={{ height: "3rem" }}
                       />
                     </td>
                     <td>{item.title}</td>
