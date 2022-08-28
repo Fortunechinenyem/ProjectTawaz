@@ -15,21 +15,21 @@ const Kart = () => {
   if (isEmpty) return <h1>Your Cart is empty</h1>;
   return (
     <section className="container w-75 mx-auto">
-      <div className="row justify-content-center">
+      <div className=" ">
         <div className="col-12">
           <h4>
             Cart ({totalUniqueItems}) Total Items:({totalItems})
           </h4>
-          <table className="table table-warning table-hover mb-4 w-100 mx-auto">
+          <table className="table table-warning table-hover mb-4 ">
             <tbody>
               {items.map((item, index) => {
                 return (
-                  <tr key={index}>
+                  <tr key={index} className="w-75 mx-auto">
                     <td>
                       <img
                         src={item.img}
                         alt={"#"}
-                        style={{ height: "3rem" }}
+                        style={{ height: "4rem" }}
                       />
                     </td>
                     <td>{item.title}</td>
@@ -65,10 +65,10 @@ const Kart = () => {
             </tbody>
           </table>
         </div>
-        <div className="col-auto ms-auto">
+        <div className="w-75 ms-auto">
           <h4>Total Price: N {cartTotal}</h4>
         </div>
-        <div className="col-auto">
+        <div className="w-75 ms-auto">
           <button className="btn btn-danger m-2 " onClick={() => emptyCart()}>
             Clear Cart
           </button>
