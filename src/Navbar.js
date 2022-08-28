@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "./images/logo.png";
-import CI from "./images/carticon.png";
+import "./navbar.css";
 import { Link } from "react-router-dom";
 
-const NavBar = () => {
+const NavBar = ({ setShow }) => {
   return (
     <header className="d-flex">
       <div className="logo bg-light">
@@ -13,10 +13,6 @@ const NavBar = () => {
       </div>
 
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="carticon">
-          <img src={CI} alt={NavBar.jpg} />
-        </div>
-
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -61,11 +57,7 @@ const NavBar = () => {
                       Menu
                     </Link>
                   </li>
-                  <li>
-                    <Link to="/cart" className="dropdown-item">
-                      Cart
-                    </Link>
-                  </li>
+
                   <li>
                     <Link to="/training" className="dropdown-item">
                       Training
@@ -84,6 +76,12 @@ const NavBar = () => {
               </li>
             </ul>
 
+            <div className="cart">
+              <span className="cart" onClick={() => setShow(false)}>
+                <i className="fas fa-cart-plus"></i>
+              </span>
+              <span>0</span>
+            </div>
             <button className="btn btn-warning" type="submit">
               <Link to="/menu" className="dropdown-item">
                 Make an Order

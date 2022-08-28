@@ -3,13 +3,13 @@
     {
       "id": 1,
       "title": "Belleful Series",
-      "text": "We have a variety of breakfast menu",
+      "price": "We have a variety of breakfast menu",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 2,
       "title": "Breakfast Specials",
-      "text": "We have a variety of breakfast menu",
+      "price": "We have a variety of breakfast menu",
       "image": "../images/breakfast.jpg"
     }
   ],
@@ -18,80 +18,80 @@
     {
       "id": 7,
       "title": "Swallow",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 8,
       "title": "White Rice and Stew",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/rice1.jpg"
     },
 
     {
       "id": 9,
       "title": "Choice Pap and Akara",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 10,
       "title": "Jollof Rice and Chicken",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 11,
       "title": "Spaghetti and stir fry Vegetables",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 12,
       "title": "Noodles Special",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 13,
       "title": "Yam Porridge",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 14,
       "title": "Plantain with egg sauce and Sausages",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 15,
       "title": "Beans Porridge with plantain",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 16,
       "title": "Boiled Yam with fish sauce/Stew/Vegetable",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 17,
       "title": "Masa Special with Soup/Meat, snail or gizzard",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 18,
       "title": "Northern Pottage(Pate)",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 19,
       "title": "Samosa,Springrolls and puff-puff",
-      "text": "N500 per plate",
+      "price": "1000",
       "image": "../images/swallow.jpg"
     }
   ],
@@ -99,14 +99,14 @@
   "cart": [
     {
       "id": 60,
-      "title": "Breakfast Meal",
-      "text": "N500 per plate",
+      "name": "Breakfast Meal",
+      "amount": "N500 ",
       "image": "../images/breakfast.jpg"
     },
     {
       "id": 61,
-      "title": "MeatMeal",
-      "text": "N500 per plate",
+      "name": "MeatMeal",
+      "amount": "N500",
       "image": "../images/meatmeal.jpg"
     }
   ],
@@ -115,8 +115,8 @@
     {
       "id": 70,
       "title": "Main Total :",
-      "text": "Delivery Charge :",
-      "text1": "Total :"
+      "price": "Delivery Charge :",
+      "price1": "Total :"
     }
   ]
 }

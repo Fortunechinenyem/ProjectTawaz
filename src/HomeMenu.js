@@ -25,7 +25,7 @@ const HomeMenu = () => {
         {Db.menu.map((menuItem) => {
           return (
             <div className="col-sm-6 col-md-6">
-              <HomeMenu1 {...menuItem}></HomeMenu1>
+              <HomeMenu1 key={menuItem.id} {...menuItem}></HomeMenu1>
             </div>
           );
         })}

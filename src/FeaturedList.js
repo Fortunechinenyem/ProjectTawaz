@@ -2,7 +2,7 @@ import React from "react";
 
 function FeaturedList() {
   return (
-    <div className="feature w-100 ms-auto mb-3">
+    <div className="feature  ms-auto mb-3">
       <div className="card">
         <div className="card-body">
           <h4 className="card-title1 text-danger">Star Menu!</h4>

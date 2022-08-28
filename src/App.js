@@ -3,11 +3,12 @@ import Home from "./pages/Home";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Menu from "./pages/Menu";
-import Cart from "./pages/Cart";
+
 import NavBar from "./Navbar";
 import Contact from "./pages/Contact";
 import Training from "./pages/Training";
 import About from "./pages/About";
+import { useState } from "react";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/cart" element={<Cart />} />
+
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/training" element={<Training />} />

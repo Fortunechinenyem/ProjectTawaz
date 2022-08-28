@@ -1,36 +1,43 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+
 import Db from "./DB.json";
 
-const HomeMenu2 = (props) => {
-  const { id, title, text, image } = props;
+const MenuCart = (item, handleChange) => {
+  const { id, title, price, image } = item;
   return (
-    <div key={id} className="card">
-      <img src={image} alt="swallow.jpg" />
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{text}</p>
-        <Link to="/cart" className="btn btn-warning">
+    <div key={id} className="cards">
+      <div className="image_box">
+        <img src={image} alt="swallow.jpg" />
+      </div>
+
+      <div className="details">
+        <p className="">{title}</p>
+        <p className="">N{price}</p>
+        <button onClick={() => handleChange(item)} className="btn btn-warning">
           Add to Cart
-        </Link>
+        </button>
       </div>
     </div>
   );
 };
 
 const MainMenu = () => {
+  const { mainmenu, setMainmenu } = useState([]);
+  const handleClick = (item) => {
+    mainmenu.push(item);
+  };
   return (
-    <>
-      <div className="container row g-3 w-75 mx-auto">
-        {Db.mainmenu.map((menuItem) => {
+    <section>
+      <div className="cart container row g-3 w-75 mx-auto">
+        {Db.mainmenu.map((item) => {
           return (
             <div className="col-sm-6 col-md-3">
-              <HomeMenu2 {...menuItem}></HomeMenu2>
+              <MenuCart key={item.id} {...item} handleClick={handleClick} />
             </div>
           );
         })}
       </div>
-    </>
+    </section>
   );
 };
 
