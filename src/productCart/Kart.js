@@ -28,7 +28,7 @@ const Kart = () => {
                     <td>
                       <img
                         src={item.img}
-                        alt={myimage}
+                        alt={"#"}
                         style={{ height: "6rem" }}
                       />
                     </td>
