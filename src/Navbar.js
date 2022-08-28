@@ -82,7 +82,7 @@ const NavBar = ({ setShow }) => {
               </span>
               <span>0</span>
             </div>
-            <button className="btn btn-warning" type="submit">
+            <button className="btn btn-warning mt-2" type="submit">
               <Link to="/menu" className="dropdown-item">
                 Make an Order
               </Link>
