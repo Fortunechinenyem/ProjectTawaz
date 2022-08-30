@@ -14,21 +14,18 @@ const Kart = () => {
   } = useCart();
   if (isEmpty) return <h1>Your Cart is empty</h1>;
   return (
-    <section className="container w-75 mx-auto">
+    <section className="container">
       <div className=" ">
-        <div className="col-12">
-          <h4>
-            Cart ({totalUniqueItems}) Total Items:({totalItems})
-          </h4>
-          <div className="card mb-4 ">
+        <div className="">
+          <div className="card mb-4 w-75 mx-auto">
             {items.map((item, index) => {
               return (
-                <div key={index} className=" card-body w-75 mx-auto">
+                <div key={index} className=" card-body">
                   <div>
                     <img src={item.img} alt={"#"} style={{ height: "4rem" }} />
                   </div>
                   <p>{item.title}</p>
-                  <p>{item.price}</p>
+                  <p>N{item.price}</p>
                   <p>Quantity ({item.quantity})</p>
                   <div>
                     <button
@@ -59,7 +56,11 @@ const Kart = () => {
             })}
           </div>
         </div>
+
         <div className="w-75 ms-auto">
+          <h4>
+            Cart ({totalUniqueItems}) Total Items:({totalItems})
+          </h4>
           <h4>Total Price: N {cartTotal}</h4>
         </div>
         <div className="w-75 ms-auto">
