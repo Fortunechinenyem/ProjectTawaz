@@ -45,7 +45,7 @@ const Kart = () => {
                       +
                     </button>
                     <button
-                      className="btn btn-danger ms-2"
+                      className="btn btn-danger ms-2 mt-0"
                       onClick={() => removeItem(item.id)}
                     >
                       Remove Item
@@ -63,11 +63,11 @@ const Kart = () => {
           </h4>
           <h4>Total Price: N {cartTotal}</h4>
         </div>
-        <div className="w-75 ms-auto">
+        <div className="w-75 ms-auto mb-5">
           <button className="btn btn-danger m-2 " onClick={() => emptyCart()}>
             Clear Cart
           </button>
-          <button className="btn btn-warning">Payment</button>
+          <button className="btn btn-warning ">Payment</button>
         </div>
       </div>
     </section>
