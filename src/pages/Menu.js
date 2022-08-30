@@ -12,6 +12,8 @@ const Menu = () => {
       <MenuHeader />
       <CartProvider>
         <Assemble />
+        <hr></hr>
+        <h3 className="text-center mb-4">CART</h3>
         <Kart />
       </CartProvider>
       <Footer />

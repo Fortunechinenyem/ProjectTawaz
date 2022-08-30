@@ -56,7 +56,7 @@ const Kart = () => {
             })}
           </div>
         </div>
-
+        <hr></hr>
         <div className="w-75 ms-auto">
           <h4>
             Cart ({totalUniqueItems}) Total Items:({totalItems})
