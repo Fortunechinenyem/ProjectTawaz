@@ -58,10 +58,10 @@ const Kart = () => {
         </div>
         <hr></hr>
         <div className="w-75 ms-auto">
-          <h4>
+          <p>
             Cart ({totalUniqueItems}) Total Items:({totalItems})
-          </h4>
-          <h4>Total Price: N {cartTotal}</h4>
+          </p>
+          <p>Total Price: N {cartTotal}</p>
         </div>
         <div className="w-75 ms-auto mb-5">
           <button className="btn btn-danger m-2 " onClick={() => emptyCart()}>
