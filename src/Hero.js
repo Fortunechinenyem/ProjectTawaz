@@ -1,22 +1,17 @@
 import React from "react";
 
-import Heroimage from "./images/hero10.png";
-
 function Hero() {
   return (
     <>
-      <div className="homehero mb-5 mt-5 d-flex w-75 mx-auto">
-        <div className="w-25">
-          <h2 className="herotext1">Tawaz</h2>
-          <h4>
-            Great <span className="herotext">Food, </span>Great
-            <span className="herotext"> Taste!</span>
-          </h4>
+      <section className="homehero ">
+        <div className="">
+          <div className="">
+            <h1>Tawaz</h1>
+            <h3>Great Food, Great Taste!</h3>
+            <button className="btn btn-warning">View Menu</button>
+          </div>
         </div>
-        <div className="w-75">
-          <img src={Heroimage} alt={Hero.png} />
-        </div>
-      </div>
+      </section>
     </>
   );
 }

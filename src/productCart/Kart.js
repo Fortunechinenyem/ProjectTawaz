@@ -1,5 +1,6 @@
 import React from "react";
 import { useCart } from "react-use-cart";
+import { Link } from "react-router-dom";
 
 const Kart = () => {
   const {
@@ -61,13 +62,16 @@ const Kart = () => {
           <p>
             Cart ({totalUniqueItems}) Total Items:({totalItems})
           </p>
+          <p>Delivery Fee:({})</p>
           <p>Total Price: N {cartTotal}</p>
         </div>
         <div className="w-75 ms-auto mb-5">
           <button className="btn btn-danger m-2 " onClick={() => emptyCart()}>
             Clear Cart
           </button>
-          <button className="btn btn-warning ">Payment</button>
+          <button className="btn btn-warning ">
+            <Link to="/payment"> Payment</Link>
+          </button>
         </div>
       </div>
     </section>

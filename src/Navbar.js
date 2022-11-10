@@ -5,7 +5,7 @@ import { NavLink as Link, useNavigate } from "react-router-dom";
 import logo from "./images/logo.png";
 const Nav = styled("nav")`
   padding: 1.5rem 0;
-  background-color: #4d8076;
+  background-color: #9b7621;
 `;
 const LinksWrapper = styled("ul")`
   background-color: #fff;

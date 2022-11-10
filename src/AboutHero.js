@@ -1,11 +1,16 @@
 import React from "react";
-import AH from "./images/hero5.png";
 
 const AboutHero = () => {
   return (
-    <div className="abouthero w-75 mx-auto mt-5 mb-5">
-      <img src={AH} alt={AboutHero.jpg} className="abouthero" />
-    </div>
+    <section className="abouthero ">
+      <div className="">
+        <div className="">
+          <h1>Who We Are</h1>
+
+          <button className="btn btn-warning">Explore</button>
+        </div>
+      </div>
+    </section>
   );
 };
 

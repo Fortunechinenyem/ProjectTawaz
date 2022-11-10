@@ -265,19 +265,50 @@ header {
 }
 /* home */
 .homehero {
-  gap: 5px;
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
   display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/meat.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .herotext1 {
   color: rgb(223, 14, 219);
 }
 
 /* About */
-/* .abouthero {
-  height: 20vh;
-  width: 20vh;
-} */
+.abouthero {
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/hero1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /* cart */
 
 .cartbtn {
