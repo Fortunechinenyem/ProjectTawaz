@@ -46,7 +46,7 @@ const AboutBody = () => {
         <div className="card w-50 mx-auto mt-3 mb-3">
           <img src={ABI} className="card-img-top" alt={AboutBody.jpg} />
           <div className="card-body">
-            <p className="card-text">Sarah Tawanyinda Ishaku</p>
+            <p className="card-text">Sarah Tawanyinda Dokong</p>
             <h3 className="w-50 mb-3 mt-3 bg-warning text-center mx-auto">
               Head Chef
             </h3>

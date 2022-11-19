@@ -13,7 +13,7 @@ const Kart = () => {
     removeItem,
     emptyCart,
   } = useCart();
-  if (isEmpty) return <h1>Your Cart is empty</h1>;
+  if (isEmpty) return <h2 className="text-center">Your Cart is empty</h2>;
   return (
     <section className="container">
       <div className=" ">
@@ -30,7 +30,7 @@ const Kart = () => {
                   <p>Quantity ({item.quantity})</p>
                   <div>
                     <button
-                      className="btn btn-warning ms-2 mb-3"
+                      className="btn btn-success ms-2 mb-3"
                       onClick={() =>
                         updateItemQuantity(item.id, item.quantity - 1)
                       }
@@ -38,7 +38,7 @@ const Kart = () => {
                       -
                     </button>
                     <button
-                      className="btn btn-warning ms-2 mb-3"
+                      className="btn btn-success ms-2 mb-3"
                       onClick={() =>
                         updateItemQuantity(item.id, item.quantity + 1)
                       }
@@ -66,11 +66,14 @@ const Kart = () => {
           <p>Total Price: N {cartTotal}</p>
         </div>
         <div className="w-75 ms-auto mb-5">
-          <button className="btn btn-danger m-2 " onClick={() => emptyCart()}>
+          <button className="btn btn-dark m-2 " onClick={() => emptyCart()}>
             Clear Cart
           </button>
-          <button className="btn btn-warning ">
-            <Link to="/payment"> Payment</Link>
+          <button className="btn btn-success ">
+            <Link to="/payment" className="nav-link">
+              {" "}
+              Payment
+            </Link>
           </button>
         </div>
       </div>

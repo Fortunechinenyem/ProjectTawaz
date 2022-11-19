@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useCart } from "react-use-cart";
+import { BsCart3 } from "react-icons/bs";
 import classes from "./NavCartButton.module.css";
 
 const NavCartButton = (props) => {
@@ -10,12 +11,6 @@ const NavCartButton = (props) => {
 
   //Extracting the items variable from the context values mainly to be used as a useEffect dependency
   const { items } = cartCtx;
-  //ENDS
-
-  //Automating the numbering of items on the Cart button using the reduce function
-  const numberOfCartItems = items.reduce((curNumber, item) => {
-    return curNumber + item.amount;
-  }, 0);
   //ENDS
 
   //Adding conditional stying to the Cart button using useState and ternary operator
@@ -40,14 +35,17 @@ const NavCartButton = (props) => {
       clearTimeout(bumpTimer);
     };
   }, [items]);
+  const { isEmpty, totalItems } = useCart();
   // ENDS
 
   //Rendering the Cart button on the DOM
   return (
     <div onClick={props.onClick} className={btnBump}>
-      <i className="bi bi-cart"></i>
-      Cart
-      <div className={classes.badge}>{numberOfCartItems}</div>
+      <i className="">
+        <BsCart3 />
+        {!isEmpty && <span style={{ position: "relative" }}>{totalItems}</span>}
+        <span style={{ marginLeft: !isEmpty ? "-13px" : 0 }}>&nbsp;</span>
+      </i>
     </div>
   );
   //ENDS

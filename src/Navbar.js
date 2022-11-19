@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { NavLink as Link, useNavigate } from "react-router-dom";
 
 import logo from "./images/logo.png";
+import NavCartButton from "./productCart/NavCartButton";
 const Nav = styled("nav")`
   padding: 1.5rem 0;
   background-color: #9b7621;
@@ -107,6 +108,9 @@ const NavBar = () => {
         <NavLinks />
         <ButtonWrapper>
           <LoginButton />
+        </ButtonWrapper>
+        <ButtonWrapper>
+          <NavCartButton className="" />
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>
