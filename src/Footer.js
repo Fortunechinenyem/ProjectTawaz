@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer w-100 mx-auto">
         <div>
           <h4>Contact Us</h4>
-          <p>08080994414</p>
+          <p>08071715005</p>
         </div>
         <ul className="social-list">
           <li className="social-list__item">

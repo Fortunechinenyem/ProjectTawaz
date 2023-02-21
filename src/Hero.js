@@ -13,7 +13,7 @@ function Hero() {
               <Link to="/menu" className="btn btn-warning mt-4">
                 View Menu
               </Link>
-              <a href="https://wa.link/nbkir0" className="btn btn-warning">
+              <a href="https://wa.link/o688gi" className="btn btn-warning">
                 Order
               </a>
             </div>
