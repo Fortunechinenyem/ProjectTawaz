@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const ContactBody = () => {
   return (
@@ -26,9 +25,9 @@ const ContactBody = () => {
         <label for="floatingTextarea">Comments</label>
       </div>
       <div className="w-75 text-center mx-auto">
-        <Link to="/cart" className="btn btn-warning mt-3">
+        <a href="https://wa.link/o688gi" className="btn btn-warning mt-3">
           Submit
-        </Link>
+        </a>
       </div>
     </div>
   );

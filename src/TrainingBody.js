@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import TH from "./images/train.png";
 
 const TrainingBody = () => {
@@ -45,9 +45,9 @@ const TrainingBody = () => {
           </label>
         </div>
         <div className="w-75 text-center mx-auto">
-          <Link to="/contact" className="btn btn-warning mt-3">
+          <a href="https://wa.link/o688gi" className="btn btn-warning mt-3">
             Submit
-          </Link>
+          </a>
         </div>
       </div>
     </section>

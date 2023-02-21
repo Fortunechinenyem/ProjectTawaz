@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AboutBody = () => {
   return (
     <section>
-      <div>
+      <div className="text-center mt-3">
         <p>
           At Tawas Tasty Treats (TTT) we make quality and affordable cakes and
           decorate them beautifully for all kinds of events. We also make
@@ -26,10 +26,10 @@ const AboutBody = () => {
           goodness that good and healthy foods bring. Hence, the slogan "chop
           life, it's meant to be chopped"!!
         </p>
+        <Link to="/training" className="btn btn-warning mt-3 mb-3 mx-auto">
+          Register
+        </Link>
       </div>
-      <Link to="/training" className="btn btn-warning">
-        Register
-      </Link>
 
       <div className="card w-50 mx-auto mt-3 mb-3">
         <img src={ABI} className="card-img-top" alt={AboutBody.jpg} />

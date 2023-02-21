@@ -11,17 +11,12 @@ const Footer = () => {
         </div>
         <ul className="social-list">
           <li className="social-list__item">
-            <a className="social-list__link" href="http://linkedin.com">
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li className="social-list__item">
             <a className="social-list__link" href="https://twitter.com">
               <i className="fab fa-twitter"></i>
             </a>
           </li>
           <li className="social-list__item">
-            <a className="social-list__link" href="https://whatsapp.com">
+            <a className="social-list__link" href="https://wa.link/o688gi">
               <i className="fab fa-whatsapp"></i>
             </a>
           </li>
@@ -62,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <p className="col-md-4 mb-0 mt-5 text-light text-center flex-fill">
+        <p className="col-md mb-0 mt-5 text-light text-center">
           &copy;Created by Fortune.dev 2023
         </p>
       </footer>
