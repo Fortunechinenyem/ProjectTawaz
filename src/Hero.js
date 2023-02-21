@@ -9,7 +9,7 @@ function Hero() {
           <div className="">
             <h1>Tawaz Tasty Treats</h1>
             <h3>Chop life, it's meant to be chopped!!</h3>
-            <div className=" d-flex container row g-2">
+            <div className=" d-flex container row g-2 w-75 mx-auto">
               <Link to="/menu" className="btn btn-warning mt-4">
                 View Menu
               </Link>
