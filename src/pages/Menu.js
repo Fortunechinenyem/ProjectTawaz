@@ -1,9 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
 
-import Kart from "../productCart/Kart";
-import { CartProvider } from "react-use-cart";
-
 import MenuHeader from "../MenuHeader";
 import Menucard1 from "../productCart/MenuCard1";
 import Menucard2 from "../MenuCard2";
