@@ -14,7 +14,7 @@ function Menucard6() {
         <div className="dropdown">
           <a
             className="btn btn-warning dropdown-toggle"
-            href="#"
+            href="/menu"
             role="button"
             id="#drinks"
             data-bs-toggle="dropdown"

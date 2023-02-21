@@ -14,7 +14,7 @@ function Menucard3() {
         <div className="dropdown">
           <a
             className="btn btn-warning dropdown-toggle"
-            href="#"
+            href="/menu"
             role="button"
             id="#icing"
             data-bs-toggle="dropdown"
