@@ -27,8 +27,8 @@ const Footer = () => {
           </li>
         </ul>
 
-        <div className="mt-3 social-list">
-          <div className="d-flex flex-wrap mx-auto tex-center">
+        <div className="mt-3 ">
+          <div className="d-flex container row mx-auto  ">
             <Link to="/menu">
               <button
                 type="button"
