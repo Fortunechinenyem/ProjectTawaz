@@ -9,8 +9,8 @@ const HomeMenu1 = (props) => {
       <img
         src={image}
         alt="dough.jpg"
-        className="col-md "
-        height="250px"
+        className="card-img"
+        height="300px"
         style={{ objectFit: "cover" }}
       />
       <div className="card-body">

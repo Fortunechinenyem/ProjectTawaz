@@ -4,31 +4,37 @@
       "id": 1,
       "title": "Small Chops",
       "price": "We have a variety of breakfast menu",
-      "image": "../images/chops.jpg"
+      "image": "./images/chops2.jpg"
     },
     {
       "id": 2,
       "title": "Northern Delight",
       "price": "We have a variety of breakfast menu",
-      "image": "../images/breakfast.jpg"
+      "image": "./images/masa.PNG"
     },
     {
       "id": 3,
       "title": "Drinks",
       "price": "We have a variety of breakfast menu",
-      "image": "../images/drink.jpg"
+      "image": "./images/tdrink.PNG"
     },
     {
       "id": 4,
       "title": "Cake Loaves",
       "price": "We have a variety of breakfast menu",
-      "image": "../images/cakee.jpg"
+      "image": "../images/cakeloaf.PNG"
     },
     {
       "id": 5,
       "title": " Decorated Cakes",
       "price": "We have a variety of breakfast menu",
-      "image": "../images/cake2.jpg"
+      "image": "../images/decoratedcake.PNG"
+    },
+    {
+      "id": 6,
+      "title": " Dessert",
+      "price": "We have a variety of breakfast menu",
+      "image": "./images/treat.PNG"
     }
   ],
 

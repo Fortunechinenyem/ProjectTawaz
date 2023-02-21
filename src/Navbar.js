@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink as Link, useNavigate } from "react-router-dom";
 
-import logo from "./images/logo.png";
+import logo from "./images/tawazlogo (2).jpg";
 
 const Nav = styled("nav")`
   padding: 1.5rem 0;
