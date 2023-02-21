@@ -13,7 +13,7 @@
   --fw-reg: 400;
   --fw-bold: 700;
 
-  --clr-light: rgb(234, 235, 235);
+  --clr-light: #fbf9ff;
   --clr-dark: #09090a;
   --clr-accent: #efd80e;
 
@@ -40,7 +40,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+.body {
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
@@ -271,14 +271,15 @@ header {
   /* Flexbox stuff */
   display: flex;
   justify-content: center;
+  margin: 1px 0px 10px 0px;
   align-items: center;
   text-align: center;
   text-align: center;
   color: white; /* ADD THIS LINE */
 
   /* Background styles */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/meat.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://i.pinimg.com/originals/33/ef/8b/33ef8b9c0b902154a6cd4103a21275ef.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -336,7 +337,7 @@ header {
   padding: 0;
 }
 .footer {
-  background: rgb(12, 33, 46);
+  background: rgb(101, 113, 121);
   color: var(--clr-light);
   text-align: center;
   padding: 2.5em 0;

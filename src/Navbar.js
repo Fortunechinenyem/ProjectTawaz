@@ -95,7 +95,7 @@ const NavLinks = () => {
 const LoginButton = () => {
   return <Button>Login</Button>;
 };
-const NavBar = () => {
+const Navbar = () => {
   return (
     <Nav className="navbar navbar-expand-lg px-3">
       <Logo />
@@ -104,16 +104,14 @@ const NavBar = () => {
         className="collapse navbar-collapse"
         id="navbarSupportedContent"
       >
-        <SearchBar />
         <NavLinks />
         <ButtonWrapper>
-          <LoginButton />
-        </ButtonWrapper>
-        <ButtonWrapper>
-          <NavCartButton className="" />
+          <a href="https://wa.link/nbkir0" className="btn btn-warning">
+            Order
+          </a>
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>
   );
 };
-export default NavBar;
+export default Navbar;

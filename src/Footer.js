@@ -1,19 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <article className="card">
       <footer className="footer w-100 mx-auto">
-        <div>
-          <h4>Delivery Locations</h4>
-        </div>
-        <div>
-          <h4>Payment Options</h4>
-          <ul className="paylist">
-            <li>Card</li>
-            <li>Cash</li>
-          </ul>
-        </div>
         <div>
           <h4>Contact Us</h4>
           <p>08080994414</p>
@@ -40,6 +31,40 @@ const Footer = () => {
             </a>
           </li>
         </ul>
+
+        <div className="mt-3 social-list">
+          <div className="d-flex flex-wrap mx-auto tex-center">
+            <Link to="/menu">
+              <button
+                type="button"
+                className="btn btn-outline-info rounded-pill btn-sm m-2 mx-1"
+              >
+                Menu
+              </button>
+            </Link>
+            <Link to="/">
+              <button
+                type="button"
+                className="btn btn-outline-warning rounded-pill btn-sm m-2 mx-1"
+              >
+                Hours & Location
+              </button>
+            </Link>
+
+            <Link to="/training">
+              <button
+                type="button"
+                className="btn btn-outline-light rounded-pill btn-sm m-2 mx-1"
+              >
+                Signup
+              </button>
+            </Link>
+          </div>
+        </div>
+
+        <p className="col-md-4 mb-0 mt-5 text-light text-center flex-fill">
+          &copy;Created by Fortune.dev 2023
+        </p>
       </footer>
     </article>
   );

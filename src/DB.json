@@ -2,15 +2,33 @@
   "menu": [
     {
       "id": 1,
-      "title": "Belleful Series",
+      "title": "Small Chops",
       "price": "We have a variety of breakfast menu",
-      "image": "../images/swallow.jpg"
+      "image": "../images/chops.jpg"
     },
     {
       "id": 2,
-      "title": "Breakfast Specials",
+      "title": "Northern Delight",
       "price": "We have a variety of breakfast menu",
       "image": "../images/breakfast.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Drinks",
+      "price": "We have a variety of breakfast menu",
+      "image": "../images/drink.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Cake Loaves",
+      "price": "We have a variety of breakfast menu",
+      "image": "../images/cakee.jpg"
+    },
+    {
+      "id": 5,
+      "title": " Decorated Cakes",
+      "price": "We have a variety of breakfast menu",
+      "image": "../images/cake2.jpg"
     }
   ],
 

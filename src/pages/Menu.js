@@ -1,21 +1,30 @@
 import React from "react";
 import Footer from "../Footer";
-import Assemble from "../productCart/Assemble";
+
 import Kart from "../productCart/Kart";
 import { CartProvider } from "react-use-cart";
 
 import MenuHeader from "../MenuHeader";
+import Menucard1 from "../productCart/MenuCard1";
+import Menucard2 from "../MenuCard2";
+import Menucard3 from "../MenuCard3";
+import Menucard4 from "../MenuCard4";
+import Menucard5 from "../MenuCard5";
+import Menucard6 from "../MenuCard6";
 
 const Menu = () => {
   return (
     <section>
       <MenuHeader />
-      <CartProvider>
-        <Assemble />
-        <hr></hr>
-        <h3 className="text-center mb-4">CART</h3>
-        <Kart />
-      </CartProvider>
+      <div className=" d-flex row g-3 w-75 mx-auto">
+        <Menucard1 />
+        <Menucard2 />
+        <Menucard3 />
+        <Menucard4 />
+        <Menucard5 />
+        <Menucard6 />
+      </div>
+
       <Footer />
     </section>
   );

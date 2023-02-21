@@ -6,7 +6,13 @@ const HomeMenu1 = (props) => {
   const { id, title, text, image } = props;
   return (
     <div key={id} className="card">
-      <img src={image} alt="dough.jpg" />
+      <img
+        src={image}
+        alt="dough.jpg"
+        className="col-md "
+        height="250px"
+        style={{ objectFit: "cover" }}
+      />
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{text}</p>

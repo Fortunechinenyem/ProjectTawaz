@@ -1,6 +1,5 @@
 import React from "react";
 import { useCart } from "react-use-cart";
-import { Link } from "react-router-dom";
 
 const Kart = () => {
   const {
@@ -70,10 +69,10 @@ const Kart = () => {
             Clear Cart
           </button>
           <button className="btn btn-success ">
-            <Link to="/payment" className="nav-link">
+            <a href="https://wa.link/nbkir0" className="nav-link">
               {" "}
-              Payment
-            </Link>
+              Order
+            </a>
           </button>
         </div>
       </div>
