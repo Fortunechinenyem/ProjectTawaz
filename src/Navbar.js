@@ -12,7 +12,7 @@ const LinksWrapper = styled("ul")`
   background-color: #fff;
   padding: 0 5rem;
 `;
-
+const SearchNavWrapper = styled("div")``;
 const ButtonWrapper = styled("div")` display: flex;justify-content: flex-end;
  @media screen and (max-width: 1024px) { justify-content: flex-start; margin-top: 0.5rem;  }`;
 
