@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
+function getRandomColor() {
+  var letters = "0123456789ABCDEF";
+  var color = "#";
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
 const Footer = () => {
+  useEffect(() => {
+    const footer = document.querySelector(".footer h1");
+    const intervalId = setInterval(() => {
+      footer.style.color = getRandomColor();
+    }, 500);
+    return () => clearInterval(intervalId);
+  }, []);
+
   return (
     <article className="card">
-      <footer className="footer w-100 mx-auto">
+      <footer className="footer w-100 mx-auto animated-bg">
+        <div className="">
+          <h1>Tawaz Tasty Treats</h1>
+        </div>
         <div>
           <h4>Contact Us</h4>
           <p>08071715005</p>

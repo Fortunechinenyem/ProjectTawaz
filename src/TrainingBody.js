@@ -100,7 +100,7 @@ const TrainingBody = () => {
               placeholder="Leave a comment here"
             ></textarea>
             <label htmlFor="reason">
-              Why do you want to attend TCC Academy?
+              Why do you want to attend Tawaz Tasty Treats Academy?
             </label>
           </div>
           <div className="w-75 text-center mx-auto">

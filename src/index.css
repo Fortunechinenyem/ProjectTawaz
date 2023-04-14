@@ -330,6 +330,53 @@ header {
 
   background: var(--clr-accent);
 }
+/* Testimonials */
+.testimonial-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 500px;
+  text-align: center;
+  align-items: center;
+}
+
+.testimonial-content {
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial-author img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author-details {
+  text-align: left;
+}
+
+.author-details h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.author-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+.testimonial-carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
 /* Footer */
 .paylist {
   list-style: none;
@@ -376,4 +423,19 @@ header {
 
 .social-list__link {
   padding: 0.5em;
+}
+.animated-bg {
+  background-color: #2c2b2b;
+  background-image: url("https://www.transparenttextures.com/patterns/stars-pattern.png");
+  background-size: cover;
+  animation: animatedBackground 20s linear infinite;
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
 }

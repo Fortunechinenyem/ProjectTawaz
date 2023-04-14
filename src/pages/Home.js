@@ -2,13 +2,13 @@ import React from "react";
 
 import CategoryBar from "../CategoryBar";
 
-import Flash from "../FlashMessage";
 import Footer from "../Footer";
 import Hero from "../Hero";
 
 import HomeMenu from "../HomeMenu";
 
 import Services from "../Services";
+import Testimonials from "../Testimonials";
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
       <CategoryBar />
       <HomeMenu />
       <Services />
-      <Flash />
+      <Testimonials />
       <Footer />
     </article>
   );
