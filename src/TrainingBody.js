@@ -34,7 +34,7 @@ const TrainingBody = () => {
     `;
 
     const url = `https://api.whatsapp.com/send?phone=${encodeURIComponent(
-      "https://wa.link/o688gi"
+      "08071715005"
     )}&text=${encodeURIComponent(tableData)}`;
     window.location.href = url;
   };
