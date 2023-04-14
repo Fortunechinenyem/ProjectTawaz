@@ -11,26 +11,26 @@ function Menucard6() {
           height="200px"
           style={{ objectFit: "cover" }}
         />
-        <div className="dropdown">
-          <a
-            className="btn btn-warning dropdown-toggle"
-            href="/menu"
-            role="button"
-            id="#drinks"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Drinks
-          </a>
+      </div>
+      <div className="dropdown text-center">
+        <a
+          className="btn btn-warning dropdown-toggle"
+          href="/menu"
+          role="button"
+          id="#drinks"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Drinks
+        </a>
 
-          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li>Kunun Zaki -N600(75cl) N300(45cl)</li>
-            <li>Tiger nut milk - N1200(75cl) N600(45cl)</li>
-            <li>Zobo - N600(75cl) N300(45cl)</li>
-            <li>fresh fruit juices -N1000 (50cl)</li>
-            <li>smoothies/parfaits </li>
-          </ul>
-        </div>
+        <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li>Kunun Zaki -N600(75cl) N300(45cl)</li>
+          <li>Tiger nut milk - N1200(75cl) N600(45cl)</li>
+          <li>Zobo - N600(75cl) N300(45cl)</li>
+          <li>fresh fruit juices -N1000 (50cl)</li>
+          <li>smoothies/parfaits </li>
+        </ul>
       </div>
     </div>
   );

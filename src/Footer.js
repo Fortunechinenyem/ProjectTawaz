@@ -26,9 +26,8 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-
-        <div className="mt-3 ">
-          <div className="d-flex container row mx-auto  ">
+        <div className="mt-3">
+          <div className="d-flex container row mx-auto">
             <Link to="/menu">
               <button
                 type="button"
@@ -42,7 +41,7 @@ const Footer = () => {
                 type="button"
                 className="btn btn-outline-warning rounded-pill btn-sm m-2 mx-1"
               >
-                Hours & Location
+                Hours &amp; Location
               </button>
             </Link>
 
@@ -58,7 +57,7 @@ const Footer = () => {
         </div>
 
         <p className="col-md mb-0 mt-5 text-light text-center">
-          &copy;Created by Fortune.dev 2023
+          &copy; 2023 Fortune.dev. All rights reserved.
         </p>
       </footer>
     </article>

@@ -1,32 +1,44 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink as Link, useNavigate } from "react-router-dom";
-
 import logo from "./images/tawazlogo (2).jpg";
 
-const Nav = styled("nav")`
+const Nav = styled.nav`
   padding: 1.5rem 0;
   background-color: #9b7621;
 `;
-const LinksWrapper = styled("ul")`
+
+const LinksWrapper = styled.ul`
   background-color: #fff;
   padding: 0 5rem;
 `;
-const SearchNavWrapper = styled("div")``;
-const ButtonWrapper = styled("div")` display: flex;justify-content: flex-end;
- @media screen and (max-width: 1024px) { justify-content: flex-start; margin-top: 0.5rem;  }`;
 
-const LogoWrapper = styled("div")`
+const SearchNavWrapper = styled.div``;
+
+const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+
+  @media screen and (max-width: 1024px) {
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+  }
+`;
+
+const LogoWrapper = styled.div`
   margin-right: 5rem;
 `;
+
 const Logo = () => {
   const navigate = useNavigate();
+
   return (
     <LogoWrapper className="logo" onClick={() => navigate("/")}>
       <img src={logo} alt={logo.svg} />
     </LogoWrapper>
   );
 };
+
 const NavbarToggler = () => {
   return (
     <button
@@ -61,7 +73,6 @@ const NavLinks = () => {
           Training School
         </Link>
       </li>
-
       <li className="nav-item">
         <Link className="nav-link" to="/contact" style={{ color: "#268f7d" }}>
           Contact Us
@@ -90,4 +101,5 @@ const Navbar = () => {
     </Nav>
   );
 };
+
 export default Navbar;
