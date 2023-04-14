@@ -16,7 +16,7 @@ const Flash = () => {
             <img src={MeatLogo} className="flash-logo" alt="Meat Logo" />
           </div>
           <div className="carousel-item">
-            <img src={HeroImage} className="flash-logo" alt="Hero Image" />
+            <img src={HeroImage} className="flash-logo" alt="Hero" />
           </div>
           <div className="carousel-item">
             <img src={ChopsLogo} className="flash-logo" alt="Chops Logo" />
