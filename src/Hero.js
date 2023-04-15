@@ -29,7 +29,7 @@ function Hero() {
           </h3>
           <div className="d-flex  row g-2 w-50 mx-auto">
             <Link to="/menu" className="btn btn-light mt-4">
-              Explore More!
+              Explore
             </Link>
             <a href="https://wa.link/o688gi" className="btn btn-warning">
               Order
