@@ -12,31 +12,20 @@ const TrainingBody = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const tableData = `
-      <table>
-        <tr>
-          <th>Full Name</th>
-          <td>${formData.fullName}</td>
-        </tr>
-        <tr>
-          <th>Email Address</th>
-          <td>${formData.email}</td>
-        </tr>
-        <tr>
-          <th>Phone Number</th>
-          <td>${formData.phoneNumber}</td>
-        </tr>
-        <tr>
-          <th>Reason to attend TCC Academy</th>
-          <td>${formData.reason}</td>
-        </tr>
-      </table>
-    `;
+    // Construct the email message from the form data
+    const subject = "Training Inquiry";
+    const body = `
+    Full Name: ${formData.fullName}
+    Email Address: ${formData.email}
+    Phone Number: ${formData.phoneNumber}
+    Reason to attend TCC Academy: ${formData.reason}
+  `;
+    const mailtoUrl = `mailto:sarahtawanyida@gmail.com?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
 
-    const url = `https://api.whatsapp.com/send?phone=${encodeURIComponent(
-      "+2348071715005"
-    )}&text=${encodeURIComponent(tableData)}`;
-    window.location.href = url;
+    // Send the email using the mailto URL
+    window.location.href = mailtoUrl;
   };
 
   const handleInputChange = (event) => {
