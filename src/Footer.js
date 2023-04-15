@@ -1,53 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-
-function getRandomColor() {
-  var letters = "0123456789ABCDEF";
-  var color = "#";
-  for (var i = 0; i < 6; i++) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
-}
+import { useNavigate } from "react-router-dom";
+import logo from "./images/tawazlogo (2).jpg";
 
 const Footer = () => {
-  useEffect(() => {
-    const footer = document.querySelector(".footer h1");
-    const intervalId = setInterval(() => {
-      footer.style.color = getRandomColor();
-    }, 500);
-    return () => clearInterval(intervalId);
-  }, []);
-
+  const navigate = useNavigate();
   return (
     <article className="card">
-      <footer className="footer w-100 mx-auto animated-bg">
-        <div className="">
-          <h1>Tawaz Tasty Treats</h1>
+      <footer className="footer w-100 mx-auto  ">
+        <div className="logo" onClick={() => navigate("/")}>
+          <img src={logo} alt={logo.svg} />
         </div>
-        <div>
-          <h4>Contact Us</h4>
-          <p>08071715005</p>
-        </div>
-        <ul className="social-list">
-          <li className="social-list__item">
-            <a className="social-list__link" href="https://twitter.com">
-              <i className="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li className="social-list__item">
-            <a className="social-list__link" href="https://wa.link/o688gi">
-              <i className="fab fa-whatsapp"></i>
-            </a>
-          </li>
-          <li className="social-list__item">
-            <a className="social-list__link" href="https://facebook.com">
-              <i className="fab fa-facebook"></i>
-            </a>
-          </li>
-        </ul>
-        <div className="mt-3">
-          <div className="d-flex container row mx-auto">
+        <div className="d-flex row container g-3 mx-auto mt-2">
+          <div className="d-flex row col-md-4">
             <Link to="/menu">
               <button
                 type="button"
@@ -56,23 +21,58 @@ const Footer = () => {
                 Menu
               </button>
             </Link>
-            <Link to="/">
+
+            <Link to="/menu">
               <button
                 type="button"
                 className="btn btn-outline-warning rounded-pill btn-sm m-2 mx-1"
               >
-                Hours &amp; Location
+                Best Deals
               </button>
             </Link>
-
-            <Link to="/training">
+            <Link to="/">
               <button
                 type="button"
                 className="btn btn-outline-light rounded-pill btn-sm m-2 mx-1"
               >
-                Signup
+                Home
               </button>
             </Link>
+            <Link to="/about">
+              <button
+                type="button"
+                className="btn btn-outline-success rounded-pill btn-sm m-2 mx-1"
+              >
+                About Us
+              </button>
+            </Link>
+          </div>
+          <div className="col-md-4">
+            <p>Help</p>
+            <p>Privacy</p>
+            <p>Terms and Condition</p>
+          </div>
+          <div className="col-md-4">
+            <p>Contact Us</p>
+            <p>08071715005</p>
+            <p>tawaztastytreats@gmail.com</p>
+            <ul className="social-list">
+              <li className="social-list__item">
+                <a className="social-list__link" href="https://twitter.com">
+                  <i className="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li className="social-list__item">
+                <a className="social-list__link" href="https://wa.link/o688gi">
+                  <i className="fab fa-whatsapp"></i>
+                </a>
+              </li>
+              <li className="social-list__item">
+                <a className="social-list__link" href="https://facebook.com">
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 

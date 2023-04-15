@@ -24,10 +24,12 @@ function Hero() {
       <div className="header">
         <div className="">
           <h1>Tawaz Tasty Treats</h1>
-          <h3>Chop life, it's meant to be chopped!!</h3>
-          <div className="d-flex container row g-2 w-75 mx-auto">
-            <Link to="/menu" className="btn btn-warning mt-4">
-              View Menu
+          <h3 className="" style={{ color: "#FFF8EC" }}>
+            Chop life, it's meant to be chopped!!
+          </h3>
+          <div className="d-flex  row g-2 w-50 mx-auto">
+            <Link to="/menu" className="btn btn-light mt-4">
+              Explore More!
             </Link>
             <a href="https://wa.link/o688gi" className="btn btn-warning">
               Order

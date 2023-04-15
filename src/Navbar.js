@@ -5,11 +5,11 @@ import logo from "./images/tawazlogo (2).jpg";
 
 const Nav = styled.nav`
   padding: 1.5rem 0;
-  background-color: #9b7621;
+  background-color: #fff8e6;
 `;
 
 const LinksWrapper = styled.ul`
-  background-color: #fff;
+  background-color: #d8a31a;
   padding: 0 5rem;
 `;
 
@@ -58,24 +58,27 @@ const NavbarToggler = () => {
 const NavLinks = () => {
   return (
     <LinksWrapper className="navbar-nav mr-auto">
-      <li className="nav-item active">
+      <li className="nav-item active text-white">
         <Link className="nav-link" to="/">
-          Home <span className="sr-only">(current)</span>
+          Home{" "}
+          <span className="sr-only" style={{ color: "#FFF8EC" }}>
+            (current)
+          </span>
         </Link>
       </li>
-      <li className="nav-item">
-        <Link className="nav-link" to="/about" style={{ color: "#268f7d" }}>
+      <li className="nav-item ">
+        <Link className="nav-link" to="/about" style={{ color: "#FFF8EC" }}>
           Who We Are
         </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/training" style={{ color: "#268f7d" }}>
-          Training School
+        <Link className="nav-link" to="/menu" style={{ color: "#FFF8EC" }}>
+          Menu
         </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link" to="/contact" style={{ color: "#268f7d" }}>
-          Contact Us
+        <Link className="nav-link" to="/training" style={{ color: "#FFF8EC" }}>
+          Training School
         </Link>
       </li>
     </LinksWrapper>
