@@ -8,6 +8,7 @@ import Menucard3 from "../MenuCard3";
 import Menucard4 from "../MenuCard4";
 import Menucard5 from "../MenuCard5";
 import Menucard6 from "../MenuCard6";
+import MenuPrompt from "../MenuPrompt";
 
 const Menu = () => {
   return (
@@ -21,7 +22,7 @@ const Menu = () => {
         <Menucard5 />
         <Menucard6 />
       </div>
-
+      <MenuPrompt />
       <Footer />
     </section>
   );

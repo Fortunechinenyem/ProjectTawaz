@@ -32,7 +32,7 @@ function Hero() {
               Explore
             </Link>
             <a href="https://wa.link/o688gi" className="button">
-              Order
+              Place An Order
             </a>
           </div>
         </div>

@@ -93,7 +93,7 @@ const TrainingBody = () => {
             </label>
           </div>
           <div className="w-75 text-center mx-auto">
-            <button type="submit" className="btn btn-warning mt-3">
+            <button type="submit" className="button mt-3">
               Submit
             </button>
           </div>
