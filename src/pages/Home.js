@@ -16,9 +16,10 @@ const Home = () => {
     <article>
       <Hero />
       <HomeInfoCard />
+      <Services />
       <CategoryBar />
       <HomeMenu />
-      <Services />
+
       <Testimonials />
       <Footer />
     </article>

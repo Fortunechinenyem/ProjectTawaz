@@ -26,7 +26,7 @@ const AboutBody = () => {
           goodness that good and healthy foods bring. Hence, the slogan "chop
           life, it's meant to be chopped"!!
         </p>
-        <Link to="/training" className="btn btn-warning mt-3 mb-3 mx-auto">
+        <Link to="/training" className="button mt-3 mb-3 mx-auto">
           Register
         </Link>
       </div>
@@ -35,7 +35,7 @@ const AboutBody = () => {
         <img src={ABI} className="card-img-top" alt={AboutBody.jpg} />
         <div className="card-body">
           <p className="card-text">Sarah Tawanyinda Dokong</p>
-          <h3 className="w-50 mb-3 mt-3 bg-warning text-center mx-auto">
+          <h3 className="typewriter mb-3 mt-3  text-center mx-auto">
             Head Chef
           </h3>
         </div>

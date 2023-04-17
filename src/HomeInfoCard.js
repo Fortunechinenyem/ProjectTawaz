@@ -10,7 +10,7 @@ function HomeInfoCard() {
       <div className="d-flex row container g-3 mx-auto mt-4">
         <div
           className="card text-center col-md-4"
-          style={{ backgroundColor: "#E8DBB7" }}
+          style={{ backgroundColor: "#D8A31A" }}
         >
           <p>
             Get Best Food <IoFastFood />{" "}
@@ -18,7 +18,7 @@ function HomeInfoCard() {
         </div>
         <div
           className="card  text-center col-md-4"
-          style={{ backgroundColor: "#E8DBB7" }}
+          style={{ backgroundColor: "#D8A31A" }}
         >
           <p>
             Extra Fast Delivery <MdDeliveryDining />
@@ -26,7 +26,7 @@ function HomeInfoCard() {
         </div>
         <div
           className="card  text-center col-md-4"
-          style={{ backgroundColor: "#E8DBB7" }}
+          style={{ backgroundColor: "#D8A31A" }}
         >
           <p>
             Best Quality <BsFillCheckCircleFill />

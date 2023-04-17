@@ -14,7 +14,7 @@ const Services = () => {
         <div className="d-flex row container g-3 mx-auto mt-4">
           <div
             className="card mb-3 col-md-4"
-            style={{ backgroundColor: "#E8DBB7" }}
+            style={{ backgroundColor: "#AE7F00" }}
           >
             <h5 className="card-title">Indoor Catering</h5>
             <p className="card-text">
@@ -24,7 +24,7 @@ const Services = () => {
           </div>
           <div
             className="card mb-3 col-md-4 "
-            style={{ backgroundColor: "#E8DBB7" }}
+            style={{ backgroundColor: "#AE7F00" }}
           >
             <h5 className="card-title">Outdoor Catering Services</h5>
             <p className="card-text">
@@ -34,7 +34,7 @@ const Services = () => {
           </div>
           <div
             className="card mb-3 col-md-4"
-            style={{ backgroundColor: "#E8DBB7" }}
+            style={{ backgroundColor: "#AE7F00" }}
           >
             <h5 className="card-title">Training School</h5>
             <p className="card-text">

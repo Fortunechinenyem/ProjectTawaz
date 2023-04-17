@@ -3,7 +3,7 @@ import React from "react";
 const MenuHeader = () => {
   return (
     <>
-      <h1 className="menuheader w-25  mb-3 mt-3  text-center mx-auto">MENU</h1>
+      <h1 className=" typewriter mb-5 mt-3  text-center mx-auto">MENU</h1>
     </>
   );
 };

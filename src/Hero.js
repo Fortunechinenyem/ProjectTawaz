@@ -24,14 +24,14 @@ function Hero() {
       <div className="header">
         <div className="">
           <h1>Tawaz Tasty Treats</h1>
-          <h3 className="" style={{ color: "#FFF8EC" }}>
+          <h3 className="typewriter" style={{ color: "#FFF8EC" }}>
             Chop life, it's meant to be chopped!!
           </h3>
           <div className="d-flex  row g-2 w-50 mx-auto">
-            <Link to="/menu" className="btn btn-light mt-4">
+            <Link to="/menu" className="button2 mt-4">
               Explore
             </Link>
-            <a href="https://wa.link/o688gi" className="btn btn-warning">
+            <a href="https://wa.link/o688gi" className="button">
               Order
             </a>
           </div>
