@@ -23,7 +23,7 @@ function Hero() {
     <section className="homehero">
       <div className="header">
         <div className="">
-          <h1>Tawaz Tasty Treats</h1>
+          <h1>Tawas Tasty Treats</h1>
           <h3 className="typewriter" style={{ color: "#FFF8EC" }}>
             Chop life, it's meant to be chopped!!
           </h3>
