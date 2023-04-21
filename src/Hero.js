@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import MenuPrompt from "./MenuPrompt";
 
 function getRandomColor() {
   var letters = "0123456789ABCDEF";
@@ -20,20 +21,27 @@ function Hero() {
   }, []);
 
   return (
-    <section className="homehero">
-      <div className="header">
-        <div className="">
-          <h1>Tawas Tasty Treats</h1>
-          <h3 className="typewriter" style={{ color: "#FFF8EC" }}>
-            Chop life, it's meant to be chopped!!
-          </h3>
-          <div className="d-flex  row g-2 w-50 mx-auto">
-            <Link to="/menu" className="button2 mt-4">
-              Explore
-            </Link>
-            <a href="https://wa.link/o688gi" className="button">
-              Place An Order
-            </a>
+    <section className="homehero" style={{ margin: "40px 0" }}>
+      <div className="container">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-md-8 text-center">
+            <h1 style={{ marginBottom: "20px" }}>Tawas Tasty Treats</h1>
+            <h3
+              className="typewriter"
+              style={{ color: "#FFF8EC", marginBottom: "40px" }}
+            >
+              Chop life, it's meant to be chopped!!
+            </h3>
+            <div className="d-flex row  col-md">
+              <div>
+                <Link to="/menu" className="button2">
+                  Explore
+                </Link>
+              </div>
+              <div>
+                <MenuPrompt />
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -429,6 +429,26 @@ header {
     border-color: orange;
   }
 }
+/* Landing Page */
+.landingpage {
+  width: 100vw;
+  height: 100vh;
+
+  /* display: flex; */
+  justify-content: center;
+
+  text-align: center;
+
+  color: white; /* ADD THIS LINE */
+
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url("./images/tawaz\ \(1\).jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 /* Footer */
 .paylist {
   list-style: none;

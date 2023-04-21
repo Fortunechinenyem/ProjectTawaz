@@ -8,26 +8,17 @@ function HomeInfoCard() {
     <div className="mt-4 mb-4">
       <h2 className="text-center">Why Us?</h2>
       <div className="d-flex row container g-3 mx-auto mt-4">
-        <div
-          className="card text-center col-md-4"
-          style={{ backgroundColor: "#D8A31A" }}
-        >
+        <div className="card text-center col-md-4">
           <p>
             Get Best Food <IoFastFood />{" "}
           </p>
         </div>
-        <div
-          className="card  text-center col-md-4"
-          style={{ backgroundColor: "#D8A31A" }}
-        >
+        <div className="card  text-center col-md-4">
           <p>
             Extra Fast Delivery <MdDeliveryDining />
           </p>
         </div>
-        <div
-          className="card  text-center col-md-4"
-          style={{ backgroundColor: "#D8A31A" }}
-        >
+        <div className="card  text-center col-md-4">
           <p>
             Best Quality <BsFillCheckCircleFill />
           </p>

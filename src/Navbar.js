@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { NavLink as Link, useNavigate } from "react-router-dom";
 import logo from "./images/tawazlogo (2).jpg";
 
+import MenuPrompt from "./MenuPrompt";
+
 const Nav = styled.nav`
   padding: 1.5rem 0;
   background-color: #fff8e6;
@@ -96,9 +98,7 @@ const Navbar = () => {
       >
         <NavLinks />
         <ButtonWrapper>
-          <a href="https://wa.link/o688gi" className="button">
-            Order
-          </a>
+          <MenuPrompt />
         </ButtonWrapper>
       </SearchNavWrapper>
     </Nav>

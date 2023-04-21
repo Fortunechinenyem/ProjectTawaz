@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../src/images/cake5.jpg";
+import { Link } from "react-router-dom";
 function Menucard3() {
   return (
     <div className="col-sm-6 col-md-4  mb-4 ">
@@ -13,16 +14,16 @@ function Menucard3() {
         />
       </div>
       <div className="dropdown text-center">
-        <a
+        <Link
+          to="/icing"
           className="btn btn-warning dropdown-toggle"
-          href="/menu"
           role="button"
           id="#icing"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
           Icing/Frosting
-        </a>
+        </Link>
 
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
           <li>Butter cream</li>

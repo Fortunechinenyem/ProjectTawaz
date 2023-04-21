@@ -1,6 +1,19 @@
 import React from "react";
+// import { useNavigate } from "react-router-dom";
 
 const ContactBody = () => {
+  // let navigate = useNavigate();
+  // let [error, setError] = React.useState(null);
+
+  // async function handleSubmit(event) {
+  //   event.preventDefault();
+  //   let result = await submitForm(event.target);
+  //   if (result.error) {
+  //     setError(result.error);
+  //   } else {
+  //     navigate("success");
+  //   }
+  // }
   return (
     <div className="w-75 mx-auto mt-5 mb-5">
       <div className="form-floating mb-3">

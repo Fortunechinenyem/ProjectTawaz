@@ -9,12 +9,14 @@ import Menucard4 from "../MenuCard4";
 import Menucard5 from "../MenuCard5";
 import Menucard6 from "../MenuCard6";
 import MenuPrompt from "../MenuPrompt";
+import MenuBar from "../MenuBar";
 
 const Menu = () => {
   return (
     <section>
       <MenuHeader />
       <div className=" d-flex row g-3 w-75 mx-auto">
+        <MenuBar />
         <Menucard1 />
         <Menucard2 />
         <Menucard3 />

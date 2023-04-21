@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../src/images/cakee.jpg";
+import { Link } from "react-router-dom";
 function Menucard5() {
   return (
     <div className="col-sm-6 col-md-4  mb-4 ">
@@ -13,16 +14,16 @@ function Menucard5() {
         />
       </div>
       <div className="dropdown text-center">
-        <a
+        <Link
+          to="/decoratedcakes"
           className="btn btn-warning dropdown-toggle"
-          href="/menu"
           role="button"
           id="#decoratedcakes"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
           Decorated Cakes
-        </a>
+        </Link>
 
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
           <li>6" high with Butter cream decor N8,000</li>

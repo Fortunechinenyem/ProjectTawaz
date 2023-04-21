@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/chops.jpg";
+import { Link } from "react-router-dom";
 function Menucard1() {
   return (
     <div className="col-sm-6 col-md-4  mb-4 ">
@@ -13,16 +14,16 @@ function Menucard1() {
         />
       </div>
       <div className="dropdown text-center">
-        <a
+        <Link
           className="btn btn-warning dropdown-toggle"
-          href="/menu"
+          to="/smallchops"
           role="button"
           id="#smallchops"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         >
           Small Chops /Snacks
-        </a>
+        </Link>
 
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
           <li>Samosa</li>
