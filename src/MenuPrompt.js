@@ -13,7 +13,7 @@ const MenuPrompt = () => {
           </a>
         ) : (
           <a href={linkUrl} className="button">
-            Place An Order on WhatsApp
+            Place An Order
           </a>
         )}
       </div>
