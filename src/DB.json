@@ -122,325 +122,229 @@
   "smallchops": [
     {
       "id": 7,
-      "title": "Swallow",
+      "title": "Combo 1",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/chops1.jpg"
     },
     {
       "id": 8,
-      "title": "White Rice and Stew",
+      "title": "Combo 2",
       "price": "1000",
-      "image": "../images/rice1.jpg"
+      "image": "../images/chops2.jpg"
     },
 
     {
       "id": 9,
-      "title": "Choice Pap and Akara",
+      "title": "Doughnut",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/doughnut.jpg"
     },
     {
       "id": 10,
-      "title": "Jollof Rice and Chicken",
+      "title": "Combo 3",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (1).jpg"
     },
     {
       "id": 11,
-      "title": "Spaghetti and stir fry Vegetables",
+      "title": "Combo 4",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (4).jpg"
     },
     {
       "id": 12,
-      "title": "Noodles Special",
+      "title": "Peppered beef kebab",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (8).jpg"
     },
     {
       "id": 13,
-      "title": "Yam Porridge",
+      "title": "Chin Chin",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (10).jpg"
     },
     {
       "id": 14,
-      "title": "Plantain with egg sauce and Sausages",
+      "title": "Combo 5",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (14).jpg"
     },
     {
       "id": 15,
-      "title": "Beans Porridge with plantain",
+      "title": "Combo 6",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (23).jpg"
     },
     {
       "id": 16,
-      "title": "Boiled Yam with fish sauce/Stew/Vegetable",
+      "title": "Juicy Meat pie",
       "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 17,
-      "title": "Masa Special with Soup/Meat, snail or gizzard",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 18,
-      "title": "Northern Pottage(Pate)",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 19,
-      "title": "Samosa,Springrolls and puff-puff",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/tawazhero.jpg"
     }
   ],
   "northerndelight": [
     {
       "id": 7,
-      "title": "Swallow",
+      "title": "Jollof Rice",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (25).jpg"
     },
     {
       "id": 8,
-      "title": "White Rice and Stew",
+      "title": "Tray Haven",
       "price": "1000",
-      "image": "../images/rice1.jpg"
+      "image": "../images/ta (11).jpg"
     },
 
     {
       "id": 9,
-      "title": "Choice Pap and Akara",
+      "title": "Pate",
       "price": "1000",
       "image": "../images/swallow.jpg"
     },
     {
       "id": 10,
-      "title": "Jollof Rice and Chicken",
+      "title": "Masa",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/tawaz (26).png"
     },
     {
       "id": 11,
-      "title": "Spaghetti and stir fry Vegetables",
+      "title": "Masa Special with Soup/Meat, snail or gizzard",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/tawaz (24).png"
     },
     {
       "id": 12,
-      "title": "Noodles Special",
+      "title": "Masa",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/tawaz (26).png"
     },
     {
       "id": 13,
-      "title": "Yam Porridge",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 14,
-      "title": "Plantain with egg sauce and Sausages",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 15,
-      "title": "Beans Porridge with plantain",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 16,
-      "title": "Boiled Yam with fish sauce/Stew/Vegetable",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 17,
       "title": "Masa Special with Soup/Meat, snail or gizzard",
       "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 18,
-      "title": "Northern Pottage(Pate)",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 19,
-      "title": "Samosa,Springrolls and puff-puff",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/tawaz (24).png"
     }
   ],
   "drinks": [
     {
       "id": 7,
-      "title": "Swallow",
+      "title": "Smoothie",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (21).jpg"
     },
     {
       "id": 8,
-      "title": "White Rice and Stew",
+      "title": "Mocktails",
       "price": "1000",
-      "image": "../images/rice1.jpg"
+      "image": "../images/ta (18).jpg"
     },
 
     {
       "id": 9,
-      "title": "Choice Pap and Akara",
+      "title": "Smoothie",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (15).jpg"
     },
     {
       "id": 10,
-      "title": "Jollof Rice and Chicken",
+      "title": "Zobo-Ginger Flavored",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (7).jpg"
     },
     {
       "id": 11,
-      "title": "Spaghetti and stir fry Vegetables",
+      "title": "Zobo Pineapple-flavored",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (19).jpg"
     },
     {
       "id": 12,
-      "title": "Noodles Special",
+      "title": "Green Smoothie",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/smoothie.jpg"
     },
     {
       "id": 13,
-      "title": "Yam Porridge",
+      "title": "Smoothie",
       "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 14,
-      "title": "Plantain with egg sauce and Sausages",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 15,
-      "title": "Beans Porridge with plantain",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 16,
-      "title": "Boiled Yam with fish sauce/Stew/Vegetable",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 17,
-      "title": "Masa Special with Soup/Meat, snail or gizzard",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 18,
-      "title": "Northern Pottage(Pate)",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 19,
-      "title": "Samosa,Springrolls and puff-puff",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/smoothie.jpg"
     }
   ],
   "cakeloaves": [
     {
       "id": 7,
-      "title": "Swallow",
+      "title": "Chocolate flavoured cakes",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (3).jpg"
     },
     {
       "id": 8,
-      "title": "White Rice and Stew",
+      "title": "Red Velvet",
       "price": "1000",
-      "image": "../images/rice1.jpg"
+      "image": "../images/ta (2).jpg"
     },
 
     {
       "id": 9,
-      "title": "Choice Pap and Akara",
+      "title": "Cakee",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta 77.jpg"
     },
     {
       "id": 10,
-      "title": "Jollof Rice and Chicken",
+      "title": "A box of slicey goodness",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (12).jpg"
     },
     {
       "id": 11,
-      "title": "Spaghetti and stir fry Vegetables",
+      "title": "traditional wedding cake (decorated)",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (24).jpg"
     },
     {
       "id": 12,
-      "title": "Noodles Special",
+      "title": "Redy---",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/treat.jpg"
     },
     {
       "id": 13,
-      "title": "Yam Porridge",
+      "title": "Graduation cake",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (20).jpg"
     },
     {
       "id": 14,
-      "title": "Plantain with egg sauce and Sausages",
+      "title": "Decorated Cupcakes",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (22).jpg"
     },
     {
       "id": 15,
-      "title": "Beans Porridge with plantain",
+      "title": "Birthday Cake",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (13).jpg"
     },
     {
       "id": 16,
-      "title": "Boiled Yam with fish sauce/Stew/Vegetable",
+      "title": "Fruity Cake",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/ta (17).jpg"
     },
     {
       "id": 17,
-      "title": "Masa Special with Soup/Meat, snail or gizzard",
+      "title": "Cake Treats",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/cakeloaf.PNG"
     },
     {
       "id": 18,
-      "title": "Northern Pottage(Pate)",
+      "title": "Drippy goodness",
       "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 19,
-      "title": "Samosa,Springrolls and puff-puff",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/decoratedcake.PNG"
     }
   ],
   "decoratedcakes": [

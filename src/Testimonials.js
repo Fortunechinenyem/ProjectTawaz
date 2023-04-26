@@ -8,7 +8,7 @@ const Testimonials = () => {
       </div>
       <div
         className="testimonial-card mx-auto "
-        style={{ backgroundColor: "#B48400" }}
+        style={{ backgroundColor: "" }}
       >
         <div className="testimonial-content">
           <p>

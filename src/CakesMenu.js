@@ -32,7 +32,7 @@ const CakesMenu = () => {
   return (
     <>
       <div className="container row g-3 w-75 mx-auto">
-        {Db.cakes.map((menuItem) => {
+        {Db.cakeloaves.map((menuItem) => {
           return (
             <div className="col-sm-6 col-md-6">
               <HomeMenu1 key={menuItem.id} {...menuItem}></HomeMenu1>
