@@ -428,6 +428,20 @@
       "image": "../images/swallow.jpg"
     }
   ],
+  "bestdeals": [
+    {
+      "id": 60,
+      "name": "Breakfast Meal",
+      "amount": "N500 ",
+      "image": "../images/breakfast.jpg"
+    },
+    {
+      "id": 61,
+      "name": "MeatMeal",
+      "amount": "N500",
+      "image": "../images/meatmeal.jpg"
+    }
+  ],
 
   "cart": [
     {

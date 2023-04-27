@@ -1,9 +1,9 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import Db from "./DB.json";
 
 const HomeMenu1 = (props) => {
-  const { id, title, text, image } = props;
+  const { id, name, amount, image } = props;
   return (
     <div key={id} className="card">
       <img
@@ -14,18 +14,25 @@ const HomeMenu1 = (props) => {
         style={{ objectFit: "cover" }}
       />
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{text}</p>
+        <h5 className="card-title">{name}</h5>
+        <p className="card-text">{amount}</p>
+        <Link
+          to="/menu"
+          className="button "
+          style={{ BackgroundColor: "#d8a31a" }}
+        >
+          Order
+        </Link>
       </div>
     </div>
   );
 };
 
-const HomeMenu = () => {
+const BestDealsMenu = () => {
   return (
     <>
       <div className="container row g-3 w-75 mx-auto">
-        {Db.menu.map((menuItem) => {
+        {Db.bestdeals.map((menuItem) => {
           return (
             <div className="col-sm-6 col-md-6">
               <HomeMenu1 key={menuItem.id} {...menuItem}></HomeMenu1>
@@ -37,4 +44,4 @@ const HomeMenu = () => {
   );
 };
 
-export default HomeMenu;
+export default BestDealsMenu;

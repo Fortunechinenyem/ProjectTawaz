@@ -11,21 +11,21 @@ const Footer = () => {
         <div className="logo" onClick={() => navigate("/")}>
           <img src={logo} alt={logo.svg} />
         </div>
+
         <div className="d-flex row container g-3 mx-auto mt-2">
           <div className="d-flex row col-md-4">
             <Link to="/menu">
               <button
                 type="button"
-                className="btn btn-outline-info rounded-pill btn-sm m-2 mx-1"
+                className="btn btn-info rounded-pill btn-sm m-2 mx-1"
               >
                 Menu
               </button>
             </Link>
-
             <Link to="/menu">
               <button
                 type="button"
-                className="btn btn-outline-warning rounded-pill btn-sm m-2 mx-1"
+                className="btn btn-warning rounded-pill btn-sm m-2 mx-1"
               >
                 Best Deals
               </button>
@@ -33,7 +33,7 @@ const Footer = () => {
             <Link to="/">
               <button
                 type="button"
-                className="btn btn-outline-light rounded-pill btn-sm m-2 mx-1"
+                className="btn btn-light rounded-pill btn-sm m-2 mx-1"
               >
                 Home
               </button>
@@ -41,7 +41,7 @@ const Footer = () => {
             <Link to="/about">
               <button
                 type="button"
-                className="btn btn-outline-success rounded-pill btn-sm m-2 mx-1"
+                className="btn btn-success rounded-pill btn-sm m-2 mx-1"
               >
                 About Us
               </button>

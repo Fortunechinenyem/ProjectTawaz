@@ -39,7 +39,7 @@ function Hero() {
                 </Link>
               </div>
               <div>
-                <MenuPrompt />
+                <MenuPrompt onClick={() => console.log("Clicked!")} />
               </div>
             </div>
           </div>

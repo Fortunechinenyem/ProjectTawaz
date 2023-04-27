@@ -9,6 +9,8 @@ import HomeMenu from "../HomeMenu";
 
 import Testimonials from "../Testimonials";
 import HomeInfoCard from "../HomeInfoCard";
+import HomeBar from "../HomeBar";
+import BestDeals from "../BestDeals";
 
 const Home = () => {
   return (
@@ -18,7 +20,10 @@ const Home = () => {
       <CategoryBar />
       <HomeMenu />
       <HomeInfoCard />
+
+      <HomeBar />
       <Testimonials />
+      <BestDeals />
       <Footer />
     </article>
   );
