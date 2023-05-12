@@ -5,7 +5,6 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Menu from "./pages/Menu";
 
-import NavBar from "./Navbar";
 import Contact from "./pages/Contact";
 import Training from "./pages/Training";
 import About from "./pages/About";
@@ -18,10 +17,12 @@ import Drinks from "./pages/Drinks";
 import NorthernDelight from "./pages/NorthernDelight";
 import LandingPage from "./pages/LandingPage";
 
+import Navbar from "./Navbar";
+
 function App() {
   return (
     <>
-      <NavBar />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
