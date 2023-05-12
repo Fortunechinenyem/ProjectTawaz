@@ -2,46 +2,33 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const CategoryBar = styled.div`
+const MenuContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 5rem;
+  align-items: center;
+  margin: 0 auto;
 `;
 
-const Button = styled(Link)`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #d8a31a;
-  color: #fff;
-  font-size: 1.2rem;
-  padding: 1rem 2rem;
-  border-radius: 5px;
+const MenuItem = styled(Link)`
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  color: #333;
+  font-size: 16px;
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
 
   &:hover {
-    background-color: #c48915;
-  }
-
-  &:not(:last-child) {
-    margin-right: 1rem;
+    color: #555;
   }
 `;
 
 function MenuBar() {
   return (
-    <div className="text-center mx-auto">
-      <CategoryBar>
-        <Button to="/menu">Full Menu</Button>
-        <Button to="/northerndelight">Northern Delight</Button>
-        <Button to="/drinks">Drinks</Button>
-        <Button to="/cakes">Cakes</Button>
-        <Button to="/smallchops">Small Chops</Button>
-      </CategoryBar>
-    </div>
+    <MenuContainer className="mt-7 mb-5">
+      <MenuItem to="/northerndelight">Northern Delight</MenuItem>
+      <MenuItem to="/drinks">Drinks</MenuItem>
+      <MenuItem to="/cakes">Cakes</MenuItem>
+      <MenuItem to="/smallchops">Small Chops</MenuItem>
+    </MenuContainer>
   );
 }
 

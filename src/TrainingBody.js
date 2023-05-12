@@ -35,10 +35,10 @@ const TrainingBody = () => {
 
   return (
     <section className="text-center">
-      <div className="mt-3 mb-3 w-75 mx-auto">
-        <img src={TH} alt={TrainingBody.jpg} className="shadow" />
+      <div className="mt-3 mb-3  mx-auto">
+        <img src={TH} alt={TrainingBody.jpg} className="shadow mx-auto" />
       </div>
-      <div className="w-75 mx-auto mt-5 mb-5 shadow p-5">
+      <div className=" mx-auto mt-5 mb-5 shadow p-5">
         <p className="lead">
           We hold your hands on your cullinary journey, giving top notch
           guidance that helps you stand out!

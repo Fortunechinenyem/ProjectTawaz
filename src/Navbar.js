@@ -84,6 +84,11 @@ const NavLinks = () => {
           Training School
         </Link>
       </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/contact" style={{ color: "#FFF8EC" }}>
+          Contact Us
+        </Link>
+      </li>
     </LinksWrapper>
   );
 };
