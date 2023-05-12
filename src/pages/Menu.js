@@ -15,7 +15,7 @@ const Menu = () => {
   return (
     <section>
       <MenuHeader />
-      <div className=" d-flex row g-3 w-75 mx-auto">
+      <div className=" d-flex row g-3 w-75 mx-auto  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.16);">
         <MenuBar />
         <Menucard1 />
         <Menucard2 />

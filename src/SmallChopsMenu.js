@@ -5,7 +5,7 @@ import Db from "./DB.json";
 const HomeMenu1 = (props) => {
   const { id, title, text, image } = props;
   return (
-    <div key={id} className="card">
+    <div key={id} className="card shadow">
       <img
         src={image}
         alt="dough.jpg"
@@ -18,8 +18,8 @@ const HomeMenu1 = (props) => {
         <p className="card-text">{text}</p>
         <Link
           to="/menu"
-          className="button "
-          style={{ BackgroundColor: "#d8a31a" }}
+          className="button"
+          style={{ backgroundColor: "#d8a31a" }}
         >
           Order
         </Link>
@@ -34,8 +34,8 @@ const SmallChopsMenu = () => {
       <div className="container row g-3 w-75 mx-auto">
         {Db.smallchops.map((menuItem) => {
           return (
-            <div className="col-sm-6 col-md-6">
-              <HomeMenu1 key={menuItem.id} {...menuItem}></HomeMenu1>
+            <div className="col-sm-6 col-md-6" key={menuItem.id}>
+              <HomeMenu1 {...menuItem} />
             </div>
           );
         })}

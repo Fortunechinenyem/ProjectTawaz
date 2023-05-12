@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import DrinksMenu from "../DrinksMenu";
+import MenuPrompt from "../MenuPrompt";
 
 const Drinks = () => {
   return (
@@ -21,6 +22,7 @@ const Drinks = () => {
       </div>
       <div>
         <DrinksMenu />
+        <MenuPrompt />
       </div>
     </div>
   );

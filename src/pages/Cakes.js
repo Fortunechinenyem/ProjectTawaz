@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import CakesMenu from "../CakesMenu";
+import MenuPrompt from "../MenuPrompt";
 
 const Cakes = () => {
   return (
@@ -20,6 +21,7 @@ const Cakes = () => {
       </div>
       <div>
         <CakesMenu />
+        <MenuPrompt />
       </div>
     </div>
   );

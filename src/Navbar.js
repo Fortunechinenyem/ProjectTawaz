@@ -8,6 +8,7 @@ import MenuPrompt from "./MenuPrompt";
 const Nav = styled.nav`
   padding: 1.5rem 0;
   background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 `;
 
 const LinksWrapper = styled.ul`

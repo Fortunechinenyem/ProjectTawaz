@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import NorthernDelightMenu from "../NorthernDelightMenu";
+import MenuPrompt from "../MenuPrompt";
 
 const Icing = () => {
   return (
@@ -20,6 +21,7 @@ const Icing = () => {
       </div>
       <div>
         <NorthernDelightMenu />
+        <MenuPrompt />
       </div>
     </div>
   );

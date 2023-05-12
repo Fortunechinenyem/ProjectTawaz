@@ -1,17 +1,12 @@
 import React from "react";
 import logo from "../src/images/cake2.jpg";
 import { Link } from "react-router-dom";
+
 function Menucard2() {
   return (
-    <div className="col-sm-6 col-md-4  mb-4 ">
-      <div className="card  w-75 mx-auto  shadow">
-        <img
-          src={logo}
-          className="card-img"
-          alt=""
-          height="200px"
-          style={{ objectFit: "cover" }}
-        />
+    <div className="col-sm-6 col-md-4 mb-4">
+      <div className="card w-75 mx-auto shadow">
+        <img src={logo} className="card-img" alt="Cakes" />
       </div>
       <div className="dropdown text-center">
         <Link
@@ -25,20 +20,23 @@ function Menucard2() {
           Variety of Cakes
         </Link>
 
-        <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <li>Plain Vanilla cake</li>
-          <li>Hot milk vanilla cake</li>
-          <li>Marble Vanilla cake</li>
-          <li>Fruity vanilla cake</li>
-          <li>Chocolate cake </li>
-          <li>Red velvet cake</li>
-          <li>Lemon cake</li>
-          <li>Carrot cake</li>
-          <li>Banana cake</li>
-          <li>Coconut cake</li>
-          <li>Strawberry cake </li>
-          <li>Cheese cake</li>
-          <li>cookies& cream cake</li>
+        <ul
+          className="dropdown-menu dropdown-menu-center"
+          aria-labelledby="dropdownMenuLink"
+        >
+          <li className="dropdown-item">Plain Vanilla cake</li>
+          <li className="dropdown-item">Hot milk vanilla cake</li>
+          <li className="dropdown-item">Marble Vanilla cake</li>
+          <li className="dropdown-item">Fruity vanilla cake</li>
+          <li className="dropdown-item">Chocolate cake</li>
+          <li className="dropdown-item">Red velvet cake</li>
+          <li className="dropdown-item">Lemon cake</li>
+          <li className="dropdown-item">Carrot cake</li>
+          <li className="dropdown-item">Banana cake</li>
+          <li className="dropdown-item">Coconut cake</li>
+          <li className="dropdown-item">Strawberry cake</li>
+          <li className="dropdown-item">Cheese cake</li>
+          <li className="dropdown-item">Cookies &amp; cream cake</li>
         </ul>
       </div>
     </div>

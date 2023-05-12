@@ -34,16 +34,19 @@ const TrainingBody = () => {
   };
 
   return (
-    <section>
+    <section className="text-center">
       <div className="mt-3 mb-3 w-75 mx-auto">
-        <img src={TH} alt={TrainingBody.jpg} />
+        <img src={TH} alt={TrainingBody.jpg} className="shadow" />
       </div>
-      <div className="w-75 mx-auto mt-5 mb-5">
-        <p>
+      <div className="w-75 mx-auto mt-5 mb-5 shadow p-5">
+        <p className="lead">
           We hold your hands on your cullinary journey, giving top notch
           guidance that helps you stand out!
         </p>
-        <form onSubmit={handleSubmit}>
+        <form
+          onSubmit={handleSubmit}
+          className="w-75 mx-auto mt-5 mb-5 shadow p-5"
+        >
           <div className="form-floating mb-3">
             <input
               type="name"
@@ -93,13 +96,13 @@ const TrainingBody = () => {
             </label>
           </div>
           <div className="w-75 text-center mx-auto">
-            <button type="submit" className="button mt-3">
+            <button type="submit" className="button mt-3 shadow">
               Submit
             </button>
           </div>
         </form>
         {Object.values(formData).every((val) => val !== "") && (
-          <table className="table mt-5">
+          <table className="table mt-5 shadow">
             <tbody>
               <tr>
                 <td>Full Name:</td>

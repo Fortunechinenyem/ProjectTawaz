@@ -1,11 +1,10 @@
 import React from "react";
-
 import Db from "./DB.json";
 
 const HomeMenu1 = (props) => {
   const { id, title, text, image } = props;
   return (
-    <div key={id} className="card">
+    <div key={id} className="card shadow">
       <img
         src={image}
         alt="dough.jpg"

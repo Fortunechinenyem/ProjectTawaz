@@ -1,17 +1,12 @@
 import React from "react";
 import logo from "../src/images/cake5.jpg";
 import { Link } from "react-router-dom";
+
 function Menucard3() {
   return (
-    <div className="col-sm-6 col-md-4  mb-4 ">
-      <div className="card  w-75 mx-auto  shadow">
-        <img
-          src={logo}
-          className="card-img"
-          alt=""
-          height="200px"
-          style={{ objectFit: "cover" }}
-        />
+    <div className="col-sm-6 col-md-4 mb-4">
+      <div className="card w-75 mx-auto shadow">
+        <img src={logo} className="card-img" alt="Cake" />
       </div>
       <div className="dropdown text-center">
         <Link
@@ -25,11 +20,14 @@ function Menucard3() {
           Icing/Frosting
         </Link>
 
-        <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <li>Butter cream</li>
-          <li>Fondant</li>
-          <li>Whipped cream</li>
-          <li>Ganache</li>
+        <ul
+          className="dropdown-menu dropdown-menu-center"
+          aria-labelledby="dropdownMenuLink"
+        >
+          <li className="dropdown-item">Butter cream</li>
+          <li className="dropdown-item">Fondant</li>
+          <li className="dropdown-item">Whipped cream</li>
+          <li className="dropdown-item">Ganache</li>
         </ul>
       </div>
     </div>

@@ -1,29 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
+
+const CategoryBar = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+`;
+
+const Button = styled(Link)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d8a31a;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #c48915;
+  }
+
+  &:not(:last-child) {
+    margin-right: 1rem;
+  }
+`;
 
 function MenuBar() {
   return (
     <div className="text-center mx-auto">
-      <div className=" mt-3 mb-5 " id="categoryBar">
-        <div className="d-flex flex-wrap g-2 col-md text-center mx-auto">
-          <Link to="/menu" className="btn btn-success col-md">
-            Full Menu
-          </Link>
-          <Link to="/northerndelight" className="btn btn-info col-md">
-            Northern Delight
-          </Link>
-          <Link to="/drinks" className="btn btn-primary  col-md">
-            Drinks
-          </Link>
-
-          <Link to="/cakes" className="btn btn-danger  col-md">
-            Cakes
-          </Link>
-          <Link to="/smallchops" className="btn btn-secondary col-md">
-            Small Chops
-          </Link>
-        </div>
-      </div>
+      <CategoryBar>
+        <Button to="/menu">Full Menu</Button>
+        <Button to="/northerndelight">Northern Delight</Button>
+        <Button to="/drinks">Drinks</Button>
+        <Button to="/cakes">Cakes</Button>
+        <Button to="/smallchops">Small Chops</Button>
+      </CategoryBar>
     </div>
   );
 }

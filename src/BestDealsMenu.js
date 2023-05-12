@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Db from "./DB.json";
 
 const HomeMenu1 = (props) => {
-  const { id, name, amount, image } = props;
+  const { id, name, image } = props;
   return (
     <div key={id} className="card">
       <img
@@ -15,7 +15,7 @@ const HomeMenu1 = (props) => {
       />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">{amount}</p>
+        {/* <p className="card-text">{amount}</p> */}
         <Link
           to="/menu"
           className="button "

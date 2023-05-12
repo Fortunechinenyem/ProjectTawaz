@@ -77,7 +77,7 @@ const Footer = () => {
         </div>
 
         <p className="col-md mb-0 mt-5 text-light text-center">
-          &copy; 2023 Fortune.dev. All rights reserved.
+          &copy; 2023 #iyaintech. All rights reserved.
         </p>
       </footer>
     </article>
