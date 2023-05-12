@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SmallChopsMenu from "../SmallChopsMenu";
+import MenuPrompt from "../MenuPrompt";
 
 const SmallChops = () => {
   return (
@@ -19,6 +20,7 @@ const SmallChops = () => {
       </div>
       <div>
         <SmallChopsMenu />
+        <MenuPrompt />
       </div>
     </div>
   );

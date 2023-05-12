@@ -9,8 +9,9 @@ import HomeMenu from "../HomeMenu";
 
 import Testimonials from "../Testimonials";
 import HomeInfoCard from "../HomeInfoCard";
-import HomeBar from "../HomeBar";
+// import HomeBar from "../HomeBar";
 import BestDeals from "../BestDeals";
+import MenuPrompt from "../MenuPrompt";
 
 const Home = () => {
   return (
@@ -21,9 +22,10 @@ const Home = () => {
       <HomeMenu />
       <HomeInfoCard />
 
-      <HomeBar />
+      {/* <HomeBar /> */}
       <Testimonials />
       <BestDeals />
+      <MenuPrompt />
       <Footer />
     </article>
   );

@@ -5,6 +5,7 @@ import AboutHero from "../AboutHero";
 import Footer from "../Footer";
 import Services from "../Services";
 import BestDeals from "../BestDeals";
+import MenuPrompt from "../MenuPrompt";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
       <Services />
       <AboutBody />
       <BestDeals />
+      <MenuPrompt />
       <Footer />
     </article>
   );
