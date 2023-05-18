@@ -6,7 +6,7 @@ const AboutBody = () => {
   return (
     <section>
       <div className="text-center mt-3">
-        <p>
+        <p className="m-4">
           At Tawas Tasty Treats (TTT), we make quality and affordable cakes and
           decorate them beautifully for all kinds of events. We also make
           pastries of all kinds, small chops, finger foods, with or without

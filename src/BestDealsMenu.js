@@ -25,24 +25,32 @@ const CardBody = styled.div`
 const CardTitle = styled.h5`
   margin-bottom: 0;
 `;
+const CardContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+`;
 
 const BestDealsMenu = () => {
   return (
-    <div className="container row g-3 w-75 mx-auto">
-      {Db.bestdeals.map((menuItem) => (
-        <div className="col-sm-6 col-md-6" key={menuItem.id}>
-          <Card>
-            <CardImage
-              src={menuItem.image}
-              alt="dough.jpg"
-              className="card-img"
-            />
-            <CardBody>
-              <CardTitle>{menuItem.name}</CardTitle>
-            </CardBody>
-          </Card>
-        </div>
-      ))}
+    <div className="container  g-3 w-75 mx-auto">
+      <CardContainer>
+        {" "}
+        {Db.bestdeals.map((menuItem) => (
+          <div className="col-sm-6 col-md-6 " key={menuItem.id}>
+            <Card>
+              <CardImage
+                src={menuItem.image}
+                alt="dough.jpg"
+                className="card-img"
+              />
+              <CardBody>
+                <CardTitle>{menuItem.name}</CardTitle>
+              </CardBody>
+            </Card>
+          </div>
+        ))}
+      </CardContainer>
     </div>
   );
 };

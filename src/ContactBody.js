@@ -2,8 +2,8 @@ import React from "react";
 
 const ContactBody = () => {
   return (
-    <div className=" mx-auto mt-5 mb-5 p-5 rounded shadow">
-      <div className="form-floating mb-3">
+    <div className="m-4 mx-auto mt-5 mb-5 p-5 rounded shadow">
+      <div className=" form-floating mb-3">
         <input
           type="email"
           className="form-control border-0 bg-light"
