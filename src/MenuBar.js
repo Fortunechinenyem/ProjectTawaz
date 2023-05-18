@@ -31,8 +31,9 @@ function MenuBar() {
     <MenuContainer className="mt-7 mb-5">
       <MenuItem to="/northerndelight">Yummy Meals</MenuItem>
       <MenuItem to="/drinks">Drinks</MenuItem>
-      <MenuItem to="/cakes">Cakes</MenuItem>
+      <MenuItem to="/cakes">Cake Loaves</MenuItem>
       <MenuItem to="/smallchops">Small Chops</MenuItem>
+      <MenuItem to="/decoratedcakes">Decorated Cakes</MenuItem>
     </MenuContainer>
   );
 }

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import NorthernDelightMenu from "../NorthernDelightMenu";
 import MenuPrompt from "../MenuPrompt";
+import Footer from "../Footer";
 
 const NorthernDelight = () => {
   return (
@@ -23,6 +24,7 @@ const NorthernDelight = () => {
         <NorthernDelightMenu />
         <MenuPrompt />
       </div>
+      <Footer />
     </div>
   );
 };

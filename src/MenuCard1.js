@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/chops.jpg";
+import logo from "../src/images/chops2.jpg";
 import { Link } from "react-router-dom";
 
 function Menucard1() {

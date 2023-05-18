@@ -363,82 +363,52 @@
   "decoratedcakes": [
     {
       "id": 7,
-      "title": "Swallow",
+      "title": "Cake1",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/cake1.jpg"
     },
     {
       "id": 8,
-      "title": "White Rice and Stew",
+      "title": "Cake2",
       "price": "1000",
-      "image": "../images/rice1.jpg"
+      "image": "../images/cake2.jpg"
     },
 
     {
       "id": 9,
-      "title": "Choice Pap and Akara",
+      "title": "Cake3",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/decoratedcake.PNG"
     },
     {
       "id": 10,
-      "title": "Jollof Rice and Chicken",
+      "title": "Cake4",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/decoratedcake2.jpg"
     },
     {
       "id": 11,
-      "title": "Spaghetti and stir fry Vegetables",
+      "title": "Cake5",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/decoratedcake3.jpg"
     },
     {
       "id": 12,
-      "title": "Noodles Special",
+      "title": "Cake6",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/decoratedcake4.jpg"
     },
     {
       "id": 13,
-      "title": "Yam Porridge",
+      "title": "Cake7",
       "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/decoratedcake5.jpg"
     },
     {
       "id": 14,
-      "title": "Plantain with egg sauce and Sausages",
+      "title": "Cake8",
       "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 15,
-      "title": "Beans Porridge with plantain",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 16,
-      "title": "Boiled Yam with fish sauce/Stew/Vegetable",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 17,
-      "title": "Masa Special with Soup/Meat, snail or gizzard",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 18,
-      "title": "Northern Pottage(Pate)",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
-    },
-    {
-      "id": 19,
-      "title": "Samosa,Springrolls and puff-puff",
-      "price": "1000",
-      "image": "../images/swallow.jpg"
+      "image": "../images/decoratedcake6.jpg"
     }
   ],
   "bestdeals": [

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SmallChopsMenu from "../SmallChopsMenu";
 import MenuPrompt from "../MenuPrompt";
+import Footer from "../Footer";
 
 const SmallChops = () => {
   return (
@@ -22,6 +23,7 @@ const SmallChops = () => {
         <SmallChopsMenu />
         <MenuPrompt />
       </div>
+      <Footer />
     </div>
   );
 };

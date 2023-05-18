@@ -1,8 +1,7 @@
 import React from "react";
-import Footer from "../Footer";
 
 import MenuHeader from "../MenuHeader";
-import Menucard1 from "../productCart/MenuCard1";
+import Menucard1 from "../MenuCard1";
 import Menucard2 from "../MenuCard2";
 import Menucard3 from "../MenuCard3";
 import Menucard4 from "../MenuCard4";
@@ -25,7 +24,6 @@ const Menu = () => {
         <Menucard6 />
       </div>
       <MenuPrompt />
-      <Footer />
     </section>
   );
 };

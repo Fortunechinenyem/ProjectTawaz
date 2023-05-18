@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import DrinksMenu from "../DrinksMenu";
 import MenuPrompt from "../MenuPrompt";
+import Footer from "../Footer";
 
 const Drinks = () => {
   return (
@@ -24,6 +25,7 @@ const Drinks = () => {
         <DrinksMenu />
         <MenuPrompt />
       </div>
+      <Footer />
     </div>
   );
 };

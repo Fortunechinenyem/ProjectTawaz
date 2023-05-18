@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import CakesMenu from "../CakesMenu";
 import MenuPrompt from "../MenuPrompt";
+import Footer from "../Footer";
 
 const Cakes = () => {
   return (
@@ -23,6 +24,7 @@ const Cakes = () => {
         <CakesMenu />
         <MenuPrompt />
       </div>
+      <Footer />
     </div>
   );
 };
