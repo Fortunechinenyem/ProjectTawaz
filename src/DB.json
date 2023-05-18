@@ -300,47 +300,12 @@
     },
 
     {
-      "id": 9,
-      "title": "Cakee",
-      "price": "1000",
-      "image": "../images/ta 77.jpg"
-    },
-    {
       "id": 10,
       "title": "A box of slicey goodness",
       "price": "1000",
       "image": "../images/ta (12).jpg"
     },
-    {
-      "id": 11,
-      "title": "traditional wedding cake (decorated)",
-      "price": "1000",
-      "image": "../images/ta (24).jpg"
-    },
-    {
-      "id": 12,
-      "title": "Redy---",
-      "price": "1000",
-      "image": "../images/ta (2).jpg"
-    },
-    {
-      "id": 13,
-      "title": "Graduation cake",
-      "price": "1000",
-      "image": "../images/ta (20).jpg"
-    },
-    {
-      "id": 14,
-      "title": "Decorated Cupcakes",
-      "price": "1000",
-      "image": "../images/ta (22).jpg"
-    },
-    {
-      "id": 15,
-      "title": "Birthday Cake",
-      "price": "1000",
-      "image": "../images/ta (13).jpg"
-    },
+
     {
       "id": 16,
       "title": "Fruity Cake",
@@ -363,28 +328,28 @@
   "decoratedcakes": [
     {
       "id": 7,
-      "title": "Cake1",
+      "title": "traditional wedding cake (decorated)",
       "price": "1000",
-      "image": "../images/cake1.jpg"
+      "image": "../images/ta (24).jpg"
     },
     {
       "id": 8,
-      "title": "Cake2",
+      "title": "Graduation cake",
       "price": "1000",
-      "image": "../images/cake2.jpg"
+      "image": "../images/ta (20).jpg"
     },
 
     {
       "id": 9,
-      "title": "Cake3",
+      "title": "Decorated Cupcakes",
       "price": "1000",
-      "image": "../images/decoratedcake.PNG"
+      "image": "../images/ta (22).jpg"
     },
     {
       "id": 10,
-      "title": "Cake4",
+      "title": "Birthday Cake",
       "price": "1000",
-      "image": "../images/decoratedcake2.jpg"
+      "image": "../images/ta (13).jpg"
     },
     {
       "id": 11,
@@ -406,9 +371,9 @@
     },
     {
       "id": 14,
-      "title": "Cake8",
+      "title": "Cakee",
       "price": "1000",
-      "image": "../images/decoratedcake6.jpg"
+      "image": "../images/ta 77.jpg"
     }
   ],
   "bestdeals": [
