@@ -2,6 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "./images/tawazlogo (2).jpg";
+import styled from "styled-components";
+
+const PhoneLink = styled.a`
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  margin: 10px 0;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: #555;
+  }
+`;
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -54,8 +67,9 @@ const Footer = () => {
           </div>
           <div className="col-md-4">
             <p>Contact Us</p>
-            <p>08071715005</p>
-            <p>tawaztastytreats@gmail.com</p>
+
+            <PhoneLink href="tel:+2348071715005">08071715005</PhoneLink>
+            <p>tawastastytreats@gmail.com</p>
             <ul className="social-list">
               <li className="social-list__item">
                 <a className="social-list__link" href="https://twitter.com">
