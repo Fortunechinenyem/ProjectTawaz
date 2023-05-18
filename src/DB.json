@@ -204,9 +204,9 @@
     },
     {
       "id": 10,
-      "title": "Masa",
+      "title": "Meatmeal",
       "price": "1000",
-      "image": "../images/tawaz (26).png"
+      "image": "../images/meatmeal.jpg"
     },
     {
       "id": 11,
@@ -225,6 +225,24 @@
       "title": "Masa and grilled chicken",
       "price": "1000",
       "image": "../images/tawaz (24).png"
+    },
+    {
+      "id": 104,
+      "title": "Swallow",
+      "price": "1000",
+      "image": "../images/swallow2.PNG"
+    },
+    {
+      "id": 105,
+      "title": " Fried Rice",
+      "price": "1000",
+      "image": "../images/ricee.PNG"
+    },
+    {
+      "id": 106,
+      "title": " Ofada and Sauce",
+      "price": "1000",
+      "image": "../images/ta (9).jpg"
     }
   ],
   "drinks": [
@@ -243,9 +261,9 @@
 
     {
       "id": 9,
-      "title": "Smoothie",
+      "title": "Kunun Aya",
       "price": "1000",
-      "image": "../images/ta (15).jpg"
+      "image": "../images/kununaya.PNG"
     },
     {
       "id": 10,
@@ -255,21 +273,16 @@
     },
     {
       "id": 11,
-      "title": "Zobo Pineapple-flavored",
+      "title": "Zobo fruit-flavored",
       "price": "1000",
       "image": "../images/ta (19).jpg"
     },
-    {
-      "id": 12,
-      "title": "Green Smoothie",
-      "price": "1000",
-      "image": "../images/smoothie.jpg"
-    },
+
     {
       "id": 13,
-      "title": "Smoothie",
+      "title": "Mixed Smoothie",
       "price": "1000",
-      "image": "../images/smoothie.jpg"
+      "image": "../images/smoothies.PNG"
     }
   ],
   "cakeloaves": [
@@ -308,7 +321,7 @@
       "id": 12,
       "title": "Redy---",
       "price": "1000",
-      "image": "../images/treat.jpg"
+      "image": "../images/ta (2).jpg"
     },
     {
       "id": 13,
@@ -431,9 +444,9 @@
   "bestdeals": [
     {
       "id": 60,
-      "name": "Breakfast Meal",
+      "name": "Swallow",
       "amount": "N500 ",
-      "image": "../images/breakfast.jpg"
+      "image": "../images/swallow2.PNG"
     },
     {
       "id": 61,
