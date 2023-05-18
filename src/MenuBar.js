@@ -8,13 +8,17 @@ const MenuContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const MenuItem = styled(Link)`
   text-decoration: none;
   color: #333;
   font-size: 16px;
-  margin: 0 10px;
+  margin: 10px 0;
   transition: color 0.3s ease-in-out;
 
   &:hover {
