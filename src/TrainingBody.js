@@ -43,10 +43,7 @@ const TrainingBody = () => {
           We hold your hands on your cullinary journey, giving top notch
           guidance that helps you stand out!
         </p>
-        <form
-          onSubmit={handleSubmit}
-          className="w-75 mx-auto mt-5 mb-5 shadow p-5"
-        >
+        <form onSubmit={handleSubmit} className=" mx-auto mt-5 mb-5 shadow p-5">
           <div className="form-floating mb-3">
             <input
               type="name"

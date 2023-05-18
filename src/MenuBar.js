@@ -24,7 +24,7 @@ const MenuItem = styled(Link)`
 function MenuBar() {
   return (
     <MenuContainer className="mt-7 mb-5">
-      <MenuItem to="/northerndelight">Northern Delight</MenuItem>
+      <MenuItem to="/northerndelight">Yummy Meals</MenuItem>
       <MenuItem to="/drinks">Drinks</MenuItem>
       <MenuItem to="/cakes">Cakes</MenuItem>
       <MenuItem to="/smallchops">Small Chops</MenuItem>

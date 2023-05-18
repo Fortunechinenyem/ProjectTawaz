@@ -8,7 +8,7 @@
     },
     {
       "id": 2,
-      "title": "Northern Delight",
+      "title": "Yummy Meals",
       "price": "We have a variety of breakfast menu",
       "image": "./images/masa.PNG"
     },
@@ -198,7 +198,7 @@
 
     {
       "id": 9,
-      "title": "Pate",
+      "title": "Northern Pottage(Pate)",
       "price": "1000",
       "image": "../images/swallow.jpg"
     },
@@ -216,13 +216,13 @@
     },
     {
       "id": 12,
-      "title": "Masa",
+      "title": "Masa and pepper soup",
       "price": "1000",
       "image": "../images/tawaz (26).png"
     },
     {
       "id": 13,
-      "title": "Masa Special with Soup/Meat, snail or gizzard",
+      "title": "Masa and grilled chicken",
       "price": "1000",
       "image": "../images/tawaz (24).png"
     }
@@ -437,7 +437,7 @@
     },
     {
       "id": 61,
-      "name": "MeatMeal",
+      "name": "A slice of Heaven",
       "amount": "N500",
       "image": "../images/meatmeal.jpg"
     }

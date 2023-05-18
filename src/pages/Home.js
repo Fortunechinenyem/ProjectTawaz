@@ -23,8 +23,9 @@ const Home = () => {
       <HomeInfoCard />
 
       {/* <HomeBar /> */}
-      <Testimonials />
+
       <BestDeals />
+      <Testimonials />
       <MenuPrompt />
       <Footer />
     </article>

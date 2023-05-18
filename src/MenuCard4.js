@@ -25,27 +25,25 @@ function Menucard4() {
           aria-labelledby="dropdownMenuLink"
         >
           <h5 className="dropdown-header">
-            Small sized foil cake (all flavours) - N1000
+            Small sized foil cake (all flavours)
           </h5>
           <hr className="dropdown-divider" />
           <h5 className="dropdown-header">Medium sized foil cake</h5>
-          <li className="dropdown-item">Vanilla - N1500</li>
-          <li className="dropdown-item">Red velvet - N2000</li>
-          <li className="dropdown-item">Chocolate - N2000</li>
-          <li className="dropdown-item">Cookies and cream - N2000</li>
-          <li className="dropdown-item">Coconut - N1800</li>
-          <li className="dropdown-item">Banana - N1800</li>
-          <li className="dropdown-item">Fruitcake - N2000</li>
+          <li className="dropdown-item">Vanilla </li>
+          <li className="dropdown-item">Red velvet </li>
+          <li className="dropdown-item">Chocolate </li>
+          <li className="dropdown-item">Cookies and cream </li>
+          <li className="dropdown-item">Coconut </li>
+          <li className="dropdown-item">Banana </li>
+          <li className="dropdown-item">Fruitcake </li>
           <hr className="dropdown-divider" />
           <h5 className="dropdown-header">8" cake loaves</h5>
-          <li className="dropdown-item">Vanilla - N3000</li>
-          <li className="dropdown-item">Chocolate - N3500</li>
-          <li className="dropdown-item">Cookies and cream - N3500</li>
-          <li className="dropdown-item">Coconut - N3200</li>
-          <li className="dropdown-item">Others - N3000</li>
-          <li className="dropdown-item">
-            Sugar-free vanilla cake loaf - N2500
-          </li>
+          <li className="dropdown-item">Vanilla </li>
+          <li className="dropdown-item">Chocolate </li>
+          <li className="dropdown-item">Cookies and cream </li>
+          <li className="dropdown-item">Coconut </li>
+          <li className="dropdown-item">Others </li>
+          <li className="dropdown-item">Sugar-free vanilla cake loaf</li>
         </ul>
       </div>
     </div>

@@ -34,12 +34,12 @@ function Hero() {
               Tawas Tasty Treats
             </h1>
             <h3
-              className="typewriter"
-              style={{
-                color: "#FFF8EC",
-                marginBottom: "40px",
-                fontFamily: "Arial, sans-serif",
-              }}
+              className="mb-5"
+              // style={{
+              //   color: "#FFF8EC",
+              //   marginBottom: "40px",
+              //   fontFamily: "Arial, sans-serif",
+              // }}
             >
               Chop life, it's meant to be chopped!!
             </h3>
