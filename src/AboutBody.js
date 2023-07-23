@@ -26,7 +26,7 @@ const AboutBody = () => {
           goodness that good and healthy foods bring. Hence, the slogan "Chop
           life, it's meant to be chopped!"
         </p>
-        <Link to="/training" className="button mt-3 mb-3 mx-auto">
+        <Link to="/contact" className="button mt-3 mb-3 mx-auto">
           Register
         </Link>
       </div>

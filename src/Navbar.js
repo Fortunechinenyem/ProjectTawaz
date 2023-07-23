@@ -87,11 +87,11 @@ const NavLinks = () => {
           Menu
         </Link>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <Link className="nav-link" to="/training" style={{ color: "#FFF8EC" }}>
           Training School
         </Link>
-      </li>
+      </li> */}
       <li className="nav-item">
         <Link className="nav-link" to="/contact" style={{ color: "#FFF8EC" }}>
           Contact Us
